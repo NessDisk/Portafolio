@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    justify-content: center;
+    position: relative; /* Añade una posición relativa al contenedor */
+    margin-top: 50px;
+  }
+
+  .panel {
+    position: absolute; /* Posición absoluta para el panel */
+    top: -5%;
+    left: 32.5%;
+    width: 42%; /* Ajusta el ancho del panel al 100% del contenedor */
+    height: 110%; /* Ajusta la altura del panel al 100% del contenedor */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo del panel */
+    z-index: -1; /* Asegura que el panel esté detrás de los botones */
+    border-radius: 10px; /* Agrega el radio de borde para hacerlo redondeado */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 10px;
+    margin-left: 50px;
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
+    /* background-color: #f2f2f2; */
+    /* color: #333; */
+  }
+  
+  a:hover {
+    background-color: #e6e6e6; /* Color de fondo cuando se pasa el ratón */
+    color: #fff; /* Cambia el color del texto al pasar el ratón */
+  }
