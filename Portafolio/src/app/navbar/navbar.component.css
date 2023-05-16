@@ -3,6 +3,7 @@ nav {
     justify-content: center;
     position: relative; /* Añade una posición relativa al contenedor */
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .panel {
@@ -14,6 +15,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.5); /* Color de fondo del panel */
     z-index: -1; /* Asegura que el panel esté detrás de los botones */
     border-radius: 10px; /* Agrega el radio de borde para hacerlo redondeado */
+
   }
   
   ul {
