@@ -1,0 +1,49 @@
+- Poner la informacion que hace falta <- x
+   + games Dev 
+
+   + Dungeon Dosin
+	link: https://wess-ds.itch.io/dungeon-dosin
+ 	github: 
+   + Blue Core X
+	link: https://wess-ds.itch.io/blue-core-x
+   + Crewild
+        link: https://wess-ds.itch.io/crewild
+   + Red Ocean
+	link; https://wess-ds.itch.io/red-ocean
+
+- Poner las imagenes <- 
+  + React 
+	+proyecto individual <-x
+	+e-comerce <- x
+	+Whatzapp-c <-x 
+	+Google-c <-x 
+	+quiz <-x
+  + angular
+	+proyecto final <- x
+  + unity
+	+ Blue Core X <-x
+	+ Crewild <- x
+	+ Red ocean <-x
+	+ Dungeon dosin <-x
+	
+
+
+- ajustar los detales 
+	+ buscar iconos
+		+ linkedin <- x
+		+ youtube <- x
+		+ Itch <- x
+
+
+
+- Ajustar las card
+
+- poner estilos mas llamativos
+  + poner efecto de incrementtar el tamaño de los iconos. <-
+  + investigar por estilos mejores.
+
+  + investigar como poner un switch para cambiar el color de la pagina 
+  + investigar como cambiar el idioma.
+
+- hacer una revision
+- 

@@ -66,14 +66,14 @@
   .right-element {
     /* Estilos para el elemento derecho */
     position: relative;
-    left:70%;
+    left:50%;
     margin-bottom: 30px;
 
     opacity: 0;
     visibility: hidden;
     animation: fade-in 2s forwards;
     /* overflow: hidden; */
-    width: 25%;
+    width: 50%;
   }
 
 
