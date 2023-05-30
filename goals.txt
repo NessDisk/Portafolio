@@ -36,11 +36,37 @@
 
 
 
-- Ajustar las card
+- Ajustar las card <- x
 
-- poner estilos mas llamativos
-  + poner efecto de incrementtar el tamaño de los iconos. <-
+- informacion extra certificaciones y diplomas.
+
+
+- poner las cards <- x
+	+ ajustar los icos <- x
+	
+
+- poner estilos mas llamativos 
+  + poner efecto de incrementtar el tamaño de los iconos. <-x
+  + poner las cards de en los elementos 
+
+  + mejorar  el nav var <-
+	+ icono superior  <- x
+ 	+ alt: informacion ("Opcional")
+	+ mejor diseño <<-x
+		+ poner el icono de la pagina <-x
+		+ ajustar el nav var <-<
+	+ incrementar el tamaño <-x
+	+ hacer  que siga al screan <-x
+	+ cuando no se este usando se haga invisible cuando no este en el top del scream. <-x
+	
+	
+   + Poner  los iconos que hacen falta. <-----------------
+   
+
+
+	+ hacer que el Nav var baje con la pantallla(opcional). <-x 
   + investigar por estilos mejores.
+
 
   + investigar como poner un switch para cambiar el color de la pagina 
   + investigar como cambiar el idioma.

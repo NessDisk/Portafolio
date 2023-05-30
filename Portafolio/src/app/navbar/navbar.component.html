@@ -1,9 +1,16 @@
-<nav>
-    <div class="panel"></div>
+
+<div class="card_logo">  
+  <div  class="polygon_2">
+    <img    src="assets\img\logo\logo.PNG"  class="Logo"  alt="Null" > 
+    
+  </div>
+</div>
+<nav  [class.visible]="isNavbarVisible" >
+    <div class="panel" ></div>
     <ul>
-      <li><a routerLink="/start">start</a></li>
-      <li><a routerLink="/react">react</a></li>
-      <li><a routerLink="/angular">angular</a></li>
-      <li><a routerLink="/unity">unity</a></li>
+      <li><a routerLink="/">Start</a></li>
+      <li><a routerLink="/react">React</a></li>
+      <li><a routerLink="/angular">Angular</a></li>
+      <li><a routerLink="/unity">Unity </a></li>
     </ul>
   </nav>

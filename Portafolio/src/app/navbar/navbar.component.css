@@ -1,20 +1,67 @@
+.card_logo{
+  background-color: #000000;
+  /* clip-path: polygon(0% 0%, 20% 0%, 12.5% 100%, 0% 100%); */
+  margin-bottom: 10px;
+  border-radius:10px ;
+}
+/* .card_logo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 50%;
+  height: 100%;
+  background-color: #f3f3f3;
+  clip-path: polygon(30% 2%, 32% 2%, 21% 22%, 19% 22%);
+}
+.card_logo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 50%;
+  height: 100%;
+  background-color: #f3f3f3;
+  clip-path: polygon(35% 2%, 37% 2%, 26% 22%, 24% 22%);
+} */
+
+.Logo{
+width: 10%;
+border: none;
+}
+
+/* --- */
 nav {
     display: flex;
     justify-content: center;
-    position: relative; /* Añade una posición relativa al contenedor */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    z-index: 1000;
+    font-size: 20px;
+    opacity: 0.1;
+    transition: opacity 0.3s ease;
+  }
+  nav:hover {
+    opacity: 1;
+  }
+  nav.visible {
+    opacity: 1;
   }
 
   .panel {
-    position: absolute; /* Posición absoluta para el panel */
+    position: absolute; 
     top: -5%;
-    left: 32.5%;
-    width: 42%; /* Ajusta el ancho del panel al 100% del contenedor */
-    height: 110%; /* Ajusta la altura del panel al 100% del contenedor */
-    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo del panel */
-    z-index: -1; /* Asegura que el panel esté detrás de los botones */
-    border-radius: 10px; /* Agrega el radio de borde para hacerlo redondeado */
+    left: 400px;
+    width: 40%; 
+    height: 120%; 
+    background-color: rgb(255, 255, 255); 
+    z-index: -1; 
+    border-radius: 10px; 
+    border: 2px solid rgb(112, 112, 112);
 
   }
   
@@ -27,14 +74,14 @@ nav {
   }
   
   li {
-    margin-right: 10px;
-    margin-left: 50px;
+    /* margin-right: 10px;
+    margin-left: 10px; */
   }
   
   a {
     text-decoration: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 8px 35px;
     /* border: 1px solid #ccc; */
     /* border-radius: 4px; */
     /* background-color: #f2f2f2; */
