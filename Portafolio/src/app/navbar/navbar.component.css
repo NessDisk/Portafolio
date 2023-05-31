@@ -1,32 +1,18 @@
 .card_logo{
   background-color: #000000;
-  /* clip-path: polygon(0% 0%, 20% 0%, 12.5% 100%, 0% 100%); */
   margin-bottom: 10px;
   border-radius:10px ;
+  display: flex;
+  justify-content: space-between;
 }
-/* .card_logo::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0%;
-  width: 50%;
-  height: 100%;
-  background-color: #f3f3f3;
-  clip-path: polygon(30% 2%, 32% 2%, 21% 22%, 19% 22%);
+
+.card_logo:after{
+  background-color: #0f4ce6;
 }
-.card_logo::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0%;
-  width: 50%;
-  height: 100%;
-  background-color: #f3f3f3;
-  clip-path: polygon(35% 2%, 37% 2%, 26% 22%, 24% 22%);
-} */
+
 
 .Logo{
-width: 10%;
+width: 30%;
 border: none;
 }
 
@@ -91,4 +77,59 @@ nav {
   a:hover {
     background-color: #e6e6e6; /* Color de fondo cuando se pasa el ratón */
     color: #fff; /* Cambia el color del texto al pasar el ratón */
+  }
+  /* --------DarkMode------- */ 
+  .DarkMode{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+
+  }
+
+  .Darkmode-text{
+position: relative;
+right: 10px;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  
+  }
+  
+  .switch input[type="checkbox"] {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+  
+  input[type="checkbox"]:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input[type="checkbox"]:checked + .slider:before {
+    transform: translateX(26px);
   }

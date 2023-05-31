@@ -8,6 +8,7 @@ import { StartComponent } from './start/start.component';
 import { ReactComponent } from './react/react.component';
 import { AngularComponent } from './angular/angular.component';
 import { UnityComponent } from './unity/unity.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UnityComponent } from './unity/unity.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

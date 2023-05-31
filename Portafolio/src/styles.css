@@ -3,3 +3,10 @@ body {
     background-color: #ffffff;
     /* margin-top: 200px; */
   }
+
+
+  .dark-mode {
+    background-color: #1e1e1e;
+    color: #fff;
+    /* Agrega aquí los estilos adicionales para el modo oscuro */
+  }

@@ -1,8 +1,17 @@
 
-<div class="card_logo">  
+<div class="card_logo" id="mi-elemento">  
   <div  class="polygon_2">
     <img    src="assets\img\logo\logo.PNG"  class="Logo"  alt="Null" > 
     
+  </div>
+
+  <div class="DarkMode" style="color: white;">
+    <!-- <button (click)="toggleDarkMode()">Modo oscuro</button> -->
+    <label class="switch">
+      <input type="checkbox" [(ngModel)]="switchState" (change)="toggleDarkMode()">
+      <span class="slider"></span>
+    </label>
+    <div class="Darkmode-text"> DARKMODE </div>  
   </div>
 </div>
 <nav  [class.visible]="isNavbarVisible" >

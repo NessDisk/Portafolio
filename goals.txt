@@ -60,7 +60,7 @@
 	+ cuando no se este usando se haga invisible cuando no este en el top del scream. <-x
 	
 	
-   + Poner  los iconos que hacen falta. <-----------------
+   + Poner  los iconos que hacen falta. <-x
    
 
 
@@ -69,7 +69,7 @@
 
 
   + investigar como poner un switch para cambiar el color de la pagina 
-  + investigar como cambiar el idioma.
+  + investigar como cambiar el idioma. < para mas adelante.
 
 - hacer una revision
 - 

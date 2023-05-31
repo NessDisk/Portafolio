@@ -5,11 +5,12 @@ import { ReactComponent } from './react/react.component';
 import { AngularComponent } from './angular/angular.component'; 
 import { UnityComponent } from './unity/unity.component';
 
+
 const routes: Routes = [
   { path: '', component: StartComponent },
   { path: 'react', component: ReactComponent },
   { path: 'angular', component: AngularComponent },
-  { path: 'unity', component: UnityComponent },
+  { path: 'unity', component: UnityComponent }
 
 ];
 
