@@ -3,19 +3,21 @@
   nav {
     position: fixed;
     top: 5%;
-    left: 15%;
+    left: 10%;
+    /* height: 20%; */
     z-index: 1000;
-    font-size: 70%;
+    font-size: 2;
     opacity: 0.1;
     transition: opacity 0.3s ease;
   }
-  .DarkMode{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
- 
-  
-    }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 5px;
+
+  }
+
 }
 
 /* Estilos para dispositivos de escritorio */
@@ -29,11 +31,12 @@
     opacity: 0.1;
     transition: opacity 0.3s ease;
   }
-  .DarkMode{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;    
-    }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 35px;
+
+  }
 }
 
 
@@ -83,22 +86,20 @@ border: none;
     margin-left: 10px; */
   }
   
-  a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 35px;
-    /* border: 1px solid #ccc; */
-    /* border-radius: 4px; */
-    /* background-color: #f2f2f2; */
-    /* color: #333; */
-  }
+
   
   a:hover {
     background-color: #e6e6e6; /* Color de fondo cuando se pasa el ratón */
     color: #fff; /* Cambia el color del texto al pasar el ratón */
   }
   /* --------DarkMode------- */ 
-
+  .DarkMode{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+ 
+  
+    }
 
   .Darkmode-text{
 position: relative;
