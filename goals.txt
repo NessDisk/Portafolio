@@ -72,4 +72,13 @@
   + investigar como cambiar el idioma. < para mas adelante.
 
 - hacer una revision
-- 
+
+ - Version Mov 
+ - version inglish español
+ - mejorar las cards
+ - cambio de 
+ - img que ocupe el 50 de la card 
+ . mejor tirulo
+ - mejor style bar.
+ - mejores etiquetas.
+ - quitar foto

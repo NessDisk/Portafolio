@@ -1,3 +1,42 @@
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  nav {
+    position: fixed;
+    top: 5%;
+    left: 15%;
+    z-index: 1000;
+    font-size: 70%;
+    opacity: 0.1;
+    transition: opacity 0.3s ease;
+  }
+  .DarkMode{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+ 
+  
+    }
+}
+
+/* Estilos para dispositivos de escritorio */
+@media (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 5%;
+    left: 25%;
+    z-index: 1000;
+    font-size: 200%;
+    opacity: 0.1;
+    transition: opacity 0.3s ease;
+  }
+  .DarkMode{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;    
+    }
+}
+
+
 .card_logo{
   background-color: #000000;
   margin-bottom: 10px;
@@ -6,9 +45,6 @@
   justify-content: space-between;
 }
 
-.card_logo:after{
-  background-color: #0f4ce6;
-}
 
 
 .Logo{
@@ -17,20 +53,7 @@ border: none;
 }
 
 /* --- */
-nav {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin-top: 50px;
-    /* margin-bottom: 50px; */
-    z-index: 1000;
-    font-size: 20px;
-    opacity: 0.1;
-    transition: opacity 0.3s ease;
-  }
+
   nav:hover {
     opacity: 1;
   }
@@ -39,16 +62,12 @@ nav {
   }
 
   .panel {
-    position: absolute; 
-    top: -5%;
-    left: 400px;
-    width: 40%; 
-    height: 120%; 
+
     background-color: rgb(255, 255, 255); 
     z-index: -1; 
     border-radius: 10px; 
     border: 2px solid rgb(112, 112, 112);
-
+  
   }
   
   ul {
@@ -79,12 +98,7 @@ nav {
     color: #fff; /* Cambia el color del texto al pasar el ratón */
   }
   /* --------DarkMode------- */ 
-  .DarkMode{
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
 
-  }
 
   .Darkmode-text{
 position: relative;
@@ -96,7 +110,7 @@ right: 10px;
     display: inline-block;
     width: 60px;
     height: 34px;
-  
+    background-size: contain ;
   }
   
   .switch input[type="checkbox"] {
