@@ -6,13 +6,25 @@
   </div>
 
   <div class="DarkMode" style="color: white;">
-    <!-- <button (click)="toggleDarkMode()">Modo oscuro</button> -->
+  <div>
     <label class="switch">
       <input type="checkbox" [(ngModel)]="switchState" (change)="toggleDarkMode()">
       <span class="slider"></span>
     </label>
-    <div class="Darkmode-text"> DARKMODE </div>  
+    <div class="Darkmode-text"> DARKMODE </div>      
   </div>
+<div>
+
+  <label class="switch">
+    <input type="checkbox" [(ngModel)]="switchStateIdioms" (change)="idioms()">
+    <span class="slider"></span>
+  </label>
+  <div class="Darkmode-text"> Esp / Eng </div>  
+</div>
+  </div>
+
+
+  
 </div>
 <nav  [class.visible]="isNavbarVisible" >
     <!-- <div ></div> -->

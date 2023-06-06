@@ -2,22 +2,8 @@
 <div class="container">
     <div class="left-element">
        <div class="card-element">
-          <h3 style="font-weight: bold;" >Acerca de mi </h3>
-          <p>
-             Profesor de tecnología, Indi Dev game y Full Stack Web Developer, con conocimiento <br>
-             en: <b>JavaScript</b>, <b>HTML</b>,  <b>CSS</b>,   <b>Git</b>,  <b>GitHub</b >, <b>React</b>, <b>React-hooks</b>, <b>NodeJS</b> <br>
-             , <b>JS</b> , <b>GraphQL</b> , <b>SCRUM</b> , <b>Firebase</b> , <b>C#</b> , <b> Unity</b> , <b>Mysqul</b><br>
-             <br>
-             Profesional con gran apertura a nuevos aprendizajes, proactivo, motivado, innovador, orientado<br>
-             a resultados, motivación por el logro y trabajo en equipo con capacidad para integrar grupos<br>
-             profesionales multidisciplinarios en busca de una meta común.<br>
-             <br>
-             Con destacadas habilidades de comunicación efectiva, de rápida adaptación a diferentes tareas<br>
-             laborales y una clara disposición al cumplimiento de tareas.<br>
-             <br>
-             <!-- ✉️ - ness.cero1@gmail.com<br>
-             𝗚𝗶𝘁𝗵𝗨𝗕 - https://github.com/NessDisk -->
-          </p>
+          <!-- <h3 style="font-weight: bold;" >Acerca de mi </h3> -->
+          <div [innerHTML]="translations[currentLanguage]"></div>
        </div>
     </div>
     <!-- <div class="right-element">

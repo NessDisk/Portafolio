@@ -73,12 +73,21 @@
 
 - hacer una revision
 
- - Version Mov 
+ - Version Movil  
+//==================================================//
+   - Var 
+   - Cards centradas <-x
+   - poner el boton de Dark mode dentro del panel de seleccion o encoger el boton <-x
+   - 
  - version inglish español
+   + poner otro boton.
+   + implementacion <= x
+   + Traduccion  <======
+   + ejecucion del metodo 
  - mejorar las cards
- - cambio de 
  - img que ocupe el 50 de la card 
  . mejor tirulo
  - mejor style bar.
- - mejores etiquetas.
- - quitar foto
+ - mejores etiquetas. 
+ - quitar foto. <- X
+ - 

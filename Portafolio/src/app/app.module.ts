@@ -10,6 +10,8 @@ import { AngularComponent } from './angular/angular.component';
 import { UnityComponent } from './unity/unity.component';
 import { FormsModule } from '@angular/forms';
 
+import { DataService } from './../service/data.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,9 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+   DataService // Agrega el servicio aquí
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
