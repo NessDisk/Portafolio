@@ -1,0 +1,8 @@
+https://brittanychiang.com/
+
+- implementar diseño algo semilar
+   - organizar el entrono
+
+--------------------**-------------------
+Version Desktop 
+	+ dividir la pantalla

@@ -1,0 +1,9 @@
+.index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    
+.card{
+    border: 2px solid turquoise;
+}

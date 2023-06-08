@@ -2,8 +2,9 @@
 <div class="container">
     <div class="left-element">
        <div class="card-element">
+         <div [innerHTML]='translations[currentLanguage]["about_me_Tittle"]'></div> <br>
           <!-- <h3 style="font-weight: bold;" >Acerca de mi </h3> -->
-          <div [innerHTML]="translations[currentLanguage]"></div>
+          <div [innerHTML]='translations[currentLanguage]["about"]'></div>
        </div>
     </div>
     <!-- <div class="right-element">
@@ -19,22 +20,14 @@
     </div> -->
     <div class="right-element">
        <div class="card-element" >
-          Experiencia
-          <p>
-             Comencé como desarrollador creando app en el motor grafico <b>Unity3D</b> . <br>
-             Lance varios proyectos y participe en otros como colaborador en funciones <br>
-             varias, principalmente como programador. <br>
-             Tiempo después me gradué como programador fullstack-web en <b>React.js</b>  <br>
-             en el Henry boopcamp con mas de 500 horas practicas intensivas. <br>
-             También soy graduado de la academia Sopho como fullstack-web en <b> Angular</b> <br>
-             y  <b>Spring-boot</b> . En la actualidad me desempeño como desarrollador <b>Front-END </b>  <br> 
-             en APIS de microservicios.
-          </p>
+         <div [innerHTML]='translations[currentLanguage]["experience_Tittle"]'></div>  
+          
+          <div [innerHTML]='translations[currentLanguage]["experience"]'>currentLanguage</div>
        </div>
     </div>
     <div class="left-element">
        <div class="card-element">
-          Skill
+         <div [innerHTML]='translations[currentLanguage]["skills"]'></div>
           <div class="tag-skills">
              <h5 class="skill-inf">Angular</h5>
              <h5 class="skill-inf">React</h5>
@@ -53,7 +46,7 @@
     </div>
     <div class="right-element">
        <div class="card-element">
-          Redes
+         <div [innerHTML]='translations[currentLanguage]["network_Tittle"]'></div>
           <p>
              <a href="https://www.linkedin.com/in/nestor-solera-091a751a9/">   <img   height="15" src="assets\img\icons\linkedin.png"  class="icon_link"  alt="Null" > </a> linkeding  <br>
              <a href="https://www.youtube.com/@wessdevdiary321/videos">   <img  height="15" src="assets\img\icons\youtube.png" class="icon_link" alt="Null" > </a> Youtube   <br>
@@ -64,7 +57,7 @@
     </div>
     <div class="left-element">
        <div class="card-element">
-          Contacto
+         <div [innerHTML]='translations[currentLanguage]["contact_Tittle"]'></div>
           <p>
              📱 Cell :3208602308 -3042136263 <br>
              📧 Mail :  ness.cero1@gmail.com              

@@ -82,6 +82,15 @@
  - version inglish español
    + poner otro boton.
    + implementacion <= x
+   + ejecucion
+	+ elementos:
+		+nav var 
+		+ Titulos  <======
+		+ Botones
+		+ cards 
+			titulos	
+			fit the subtitules as Tegnology aportes
+	
    + Traduccion  <======
    + ejecucion del metodo 
  - mejorar las cards

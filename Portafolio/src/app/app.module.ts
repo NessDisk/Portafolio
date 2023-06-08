@@ -11,6 +11,7 @@ import { UnityComponent } from './unity/unity.component';
 import { FormsModule } from '@angular/forms';
 
 import { DataService } from './../service/data.service';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DataService } from './../service/data.service';
     StartComponent,
     ReactComponent,
     AngularComponent,
-    UnityComponent
+    UnityComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
