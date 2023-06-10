@@ -6,3 +6,4 @@ https://brittanychiang.com/
 --------------------**-------------------
 Version Desktop 
 	+ dividir la pantalla
+   + 

@@ -1,9 +1,31 @@
+/* DESKTOP VERSION */
 .index{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: right;
 }
     
 .card{
     border: 2px solid turquoise;
+    padding-bottom: 2000px;
+    margin-left: 510px;
+    margin-right: 50px;
+    /* margin-top: 50px; */
+    /* padding-left: 300px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+
+.tittle{
+    border: 2px solid turquoise;
+    /* padding-bottom: 10px; */
+    padding: 0px 200px 20px 20px ;  
+    position: fixed;
+    /* top: 5%; */
+    left: 30px;
+    /* top: -8px */
+    
+
 }
