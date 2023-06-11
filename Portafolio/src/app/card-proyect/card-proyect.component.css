@@ -1,0 +1,21 @@
+
+.cardProyect{
+
+    border: 2px solid turquoise;
+    display: flex;
+    flex-direction: row;
+}
+
+.date_Tittle{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    /* width: 130px; */
+}
+.InfoCard{
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    display: flex;
+    flex-direction:  column;
+    /* width: 400px; */
+}

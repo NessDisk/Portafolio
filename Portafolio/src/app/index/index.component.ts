@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { CardProyectComponent } from '../card-proyect/card-proyect.component';
+
 
 @Component({
   selector: 'app-index',

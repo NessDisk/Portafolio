@@ -5,5 +5,7 @@ https://brittanychiang.com/
 
 --------------------**-------------------
 Version Desktop 
-	+ dividir la pantalla
+	+ dividir la pantalla.
+   + poner el navegador.
+   + poner  las cards.
    + 
