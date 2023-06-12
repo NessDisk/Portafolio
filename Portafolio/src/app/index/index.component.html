@@ -11,7 +11,9 @@
                 
             </h4><br>
 
-            <H5>index</H5> <br>
+        <div class="IndexSceamPosition" (mouseenter)="activarAnimacion(1)" (mouseleave)="desactivarAnimacion(1)"> <p class="animation"  [ngClass]="{'animacion-activa-1': mostrarAnimacion1}" ></p>  <p (click)="scrollToPoint(1)">Index 1</p></div> 
+        <div class="IndexSceamPosition" (mouseenter)="activarAnimacion(2)" (mouseleave)="desactivarAnimacion(2)"> <p class="animation"  [ngClass]="{'animacion-activa-2': mostrarAnimacion2}" ></p>  <p (click)="scrollToPoint(2)">Index 2</p></div>
+        <div class="IndexSceamPosition" (mouseenter)="activarAnimacion(3)" (mouseleave)="desactivarAnimacion(3)"> <p class="animation"  [ngClass]="{'animacion-activa-3': mostrarAnimacion3}" ></p>  <p (click)="scrollToPoint(3)">Index 3</p></div>
 
             <H5>REDES ICONS</H5>
          

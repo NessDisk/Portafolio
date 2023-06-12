@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-
+/*Titeles  */
 .tittle{
     border: 2px solid turquoise;
     /* padding-bottom: 10px; */
@@ -29,3 +29,40 @@
     
 
 }
+
+.IndexSceamPosition{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.animation{
+
+    width: 25px;
+    height: 3px;
+    left:  -100px;
+    /* padding-top: 1px;
+    padding-bottom: 1px; */
+    margin-top: 22px;
+    background-color: #020202;
+    transition: width 0.3s ease;
+
+}
+
+/* .animation:hover{
+
+    width: 40px;
+
+} */
+
+.animacion-activa-1 {
+    width: 40px;
+  }
+
+  .animacion-activa-2 {
+    width: 40px;
+  }
+
+  .animacion-activa-3 {
+    width: 40px;
+  }
