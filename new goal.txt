@@ -8,14 +8,20 @@ Version Desktop
 	+ dividir la pantalla <- x
   	+maquetar las opciones <-x
 	
-	+Card proyect
-	  + maquetacion <-x
-	  + pasar información
+	+Card proyect <=
+	  + Maquetacion <-x
+	  + Pasar información <-x
+	  + Diseños <-
+	  + tag <- x
+	  + objeto cards <-x
+	  + Efecto background <-
+	  + imagen <- 
+	  + rediseñar <-
 
-	+ Navegador <=
+	+ Navegador 
 	  + animacion  <-x
 	  + movimiento <-x 		
-	  + Selector <------------------------- 
+	  + Selector <-x
 
 	+efectos:
 		+ iluminacion que sigue al mouse

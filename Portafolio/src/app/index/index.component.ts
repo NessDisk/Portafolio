@@ -8,6 +8,10 @@ import { CardProyectComponent } from '../card-proyect/card-proyect.component';
   styleUrls: ['./index.component.css']
 })
 export class IndexComponent {
+
+  titulo : string="Titulo de prueba";
+  resumen : string="Esto es un resumendel proyecto";
+  tagtest : string="css";
   
   mostrarAnimacion1 = false;
   mostrarAnimacion2 = false;
@@ -118,5 +122,39 @@ export class IndexComponent {
 
  
   }
+
+
+  // info proyects
+
+  projects: any  = {
+    proyecto1: {
+      title: "12345",
+      description: "asdg",
+      tags: {
+        a: "css",
+        b: "react",
+        c: "javascript"
+      }
+    },
+    proyecto2: {
+      title: "12345",
+      description: "asdg",
+      tags: {
+        a: "css",
+        b: "react",
+        c: "javascript"
+      }
+    },
+  };
+
+  getProyects(): string[] {
+    return Object.keys(this.projects);
+  }
+
+  getArrayToProyect(obj: object ): string[] {
+    return Object.values(obj);
+  }
+
+
   
 }

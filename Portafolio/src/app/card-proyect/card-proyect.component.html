@@ -1,10 +1,10 @@
 <div class="continaer">
     <div class="cardProyect" >
-        <h5 class="date_Tittle">OldDate-Date present</h5>
-        <h6 class="InfoCard">card-proyect works!___________ ___________ _______________ _________ __________ ________ __________ <br>
-            <h5>etiquetas: Recursos Tegnologias</h5>
-
-        </h6> 
+        <div class="date_Tittle">img proeyct</div>
+        <div class="InfoCard"> <div class="InfoCard_tittle">{{tittle}} </div > <div class="InfoCard_Sumary"> {{sumary}}</div>
+                    <div class="InfoCard_tag">    <div  *ngFor="let tagname of tagList" > <app-tag [tagName]='tagname' ></app-tag>  </div>   
+                </div>
+        </div> 
 
         
     </div>

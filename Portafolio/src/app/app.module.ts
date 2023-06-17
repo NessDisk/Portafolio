@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { DataService } from './../service/data.service';
 import { IndexComponent } from './index/index.component';
 import { CardProyectComponent } from './card-proyect/card-proyect.component';
+import { TagComponent } from './tag/tag.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CardProyectComponent } from './card-proyect/card-proyect.component';
     AngularComponent,
     UnityComponent,
     IndexComponent,
-    CardProyectComponent
+    CardProyectComponent,
+    TagComponent
   ],
   imports: [
     BrowserModule,

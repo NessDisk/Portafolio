@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-proyect',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-proyect.component.css']
 })
 export class CardProyectComponent {
+
+  @Input() tittle: string ="text";
+  @Input() sumary: string ="sumary";
+  @Input() tag1: string ="tag1";
+
+  @Input() tagList: string[] = ['Elemento 1', 'Elemento 2', 'Elemento 3'];
 
 }

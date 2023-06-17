@@ -41,9 +41,18 @@
             <br><br>
             <div>
                 proyectos
-                <app-card-proyect></app-card-proyect>
-                <app-card-proyect></app-card-proyect>
-                <app-card-proyect></app-card-proyect>
+                <div  *ngFor="let proyectname of getProyects()" >
+                    <!-- <h2>{{ (projects[proyectname]) }}</h2> -->
+                    <!-- <h2>{{  projects[proyectname]['tags'] }}</h2> -->
+
+      
+                        <app-card-proyect [tittle]="projects[proyectname]['title']"  [sumary]="projects[proyectname]['description']" [tagList]="getArrayToProyect(projects[proyectname]['tags'])" ></app-card-proyect>
+               
+
+                </div>
+                <!-- <app-card-proyect [tittle]="titulo"  [sumary]="resumen" [tag1]="tagtest" ></app-card-proyect> -->
+                <!-- <app-card-proyect></app-card-proyect>
+                <app-card-proyect></app-card-proyect> -->
             </div>
             <br><br>
             <div>

@@ -1,0 +1,9 @@
+
+.tagStyle{
+    display: inline;
+    color:  rgb(164, 244, 186);
+    background-color: rgb(77, 141, 94);
+    border-radius: 20px 20px 20px 20px;
+    padding: 2px 5px 2px 5px;
+    margin-right: 5px ;
+}
