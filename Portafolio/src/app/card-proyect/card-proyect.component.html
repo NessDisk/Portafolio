@@ -1,12 +1,14 @@
 <div class="continaer">
-    <div class="cardProyect" >
-        <div class="date_Tittle">img proeyct</div>
-        <div class="InfoCard"> <div class="InfoCard_tittle">{{tittle}} </div > <div class="InfoCard_Sumary"> {{sumary}}</div>
-                    <div class="InfoCard_tag">    <div  *ngFor="let tagname of tagList" > <app-tag [tagName]='tagname' ></app-tag>  </div>   
-                </div>
-        </div> 
-
-        
+    <div class="cardProyect" (mouseenter)="enableHoverInfoCard_tittle()" (mouseleave)="disenableHoverInfoCard_tittle()" >
+    <div class="date_Tittle"> <img class="imgProyect" src="assets\img\e-comerce.PNG" alt="" ><br></div>
+    <div class="InfoCard">
+       <div class="InfoCard_tittle" [ngClass]="{'InfoCard_tittle-hover': BoolHoverInfoCard_Tittle}"  >{{tittle}} </div >
+       <div class="InfoCard_Sumary"> {{sumary}}</div>
+       <div class="InfoCard_tag">
+          <div   *ngFor="let tagname of tagList" >
+             <app-tag [tagName]='tagname' ></app-tag>
+          </div>
+       </div>
     </div>
-    
-</div>
+ </div>
+ </div>

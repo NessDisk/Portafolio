@@ -128,8 +128,8 @@ export class IndexComponent {
 
   projects: any  = {
     proyecto1: {
-      title: "12345",
-      description: "asdg",
+      title: "a",
+      description: "asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aun aksjkajksnankjsnajk nan an naknajn jak jajbab absjnian ijabjbabhas ja",
       tags: {
         a: "css",
         b: "react",
@@ -137,8 +137,17 @@ export class IndexComponent {
       }
     },
     proyecto2: {
-      title: "12345",
-      description: "asdg",
+      title: "b",
+      description:"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aunjn na aljl jajkaj lkaj lja klaj kljak ljlajlajslajiaisojian ijabjbabhas ja",
+      tags: {
+        a: "css",
+        b: "react",
+        c: "javascript"
+      }
+    },
+    proyecto3: {
+      title: "c",
+      description:"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj ksjkalwsnjnian ijabjbabhas ja",
       tags: {
         a: "css",
         b: "react",

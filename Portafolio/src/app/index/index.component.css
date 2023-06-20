@@ -20,12 +20,10 @@
 /*Titeles  */
 .tittle{
     border: 2px solid turquoise;
-    /* padding-bottom: 10px; */
     padding: 0px 200px 20px 20px ;  
     position: fixed;
-    /* top: 5%; */
     left: 30px;
-    /* top: -8px */
+   
     
 
 }
@@ -40,20 +38,13 @@
 
     width: 25px;
     height: 3px;
-    left:  -100px;
-    /* padding-top: 1px;
-    padding-bottom: 1px; */
+    left:  -100px;  
     margin-top: 22px;
     background-color: #020202;
     transition: width 0.3s ease;
 
 }
 
-/* .animation:hover{
-
-    width: 40px;
-
-} */
 
 .animacion-activa-1 {
     width: 40px;

@@ -1,34 +1,57 @@
 
 .cardProyect{
-
-    border: 2px solid turquoise;
     display: flex;
     flex-direction: row;
     color: #ffffff;
-}
+    background-color: #ffffff00;
+    transition: background-color  0.3s ease;
+    border-radius: 6px 6px 6px 6px;
+    margin-bottom: 10px;
+            }
+.cardProyect:hover{ 
+    background-color: #ffffff17;
+                  }
 
 .date_Tittle{
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    display: flex;
-    /* width: 130px; */
+    width:  fit-content;
+    height: fit-content;   
+}
+
+.imgProyect{
+    height: 11vh;
+    width: 9vw;
 }
 .InfoCard{
-    /* margin-left: 10px; */
+
     margin-top: 10px;
     margin-right: 10px;
     display: flex;
     flex-direction:  column;
     padding-bottom: 15px;
-    /* width: 400px; */
+    width: 300%;
+    height: 20vh;
+
+    
 }
+
 
 .InfoCard_tittle{
     color: white;
+    transition: color  0.3s ease;
+}
+
+
+
+
+.InfoCard_tittle-hover{
+    color: rgb(144, 255, 181);
 }
 
 .InfoCard_Sumary{
+    display: flex;
     color: rgb(188, 188, 188);
 }
 

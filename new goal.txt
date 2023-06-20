@@ -14,9 +14,12 @@ Version Desktop
 	  + Diseños <-
 	  + tag <- x
 	  + objeto cards <-x
-	  + Efecto background <-
-	  + imagen <- 
+	  + Efecto background <-x
+	  + imagen <-x
+	  * img border animation <-
 	  + rediseñar <-
+
+	*pagina de proyectos
 
 	+ Navegador 
 	  + animacion  <-x
