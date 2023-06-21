@@ -1,9 +1,11 @@
 <div class="continaer">
-    <div class="index">
+    
+    <div class="index" (mousemove)="moverElemento($event)">
+        <div class="backgroundEffect" [style.left.px]="posX" [style.top.px]="posY"></div>
         <div class="tittle">
-
+            
             <h2>____ Nombre __________</h2>
-
+            
             <h4>____ Mas informacion ____ <br>
                 ____ Mas informacion ____ <br>
                 ____ Mas informacion ____ <br>
@@ -15,7 +17,12 @@
         <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(2)" (mouseleave)="desactivarAnimacion()"> <p class="animation"  [ngClass]="{'animacion-activa-2': mostrarAnimacion2}" ></p>  <p (click)="scrollToPoint(2)">Index 2</p></div>
         <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(3)" (mouseleave)="desactivarAnimacion()"> <p class="animation"  [ngClass]="{'animacion-activa-3': mostrarAnimacion3}" ></p>  <p (click)="scrollToPoint(3)">Index 3</p></div>
 
-            <H5>REDES ICONS</H5>
+            <div class="icons-panel"> 
+               <img class="icon-img" src="assets\img\icons\grey\github.png" >
+               <img class="icon-img" src="assets\img\icons\grey\linkedin.png" >
+               <img class="icon-img" src="assets\img\icons\grey\youtube.png" >
+               <img class="icon-img" src="assets\img\icons\grey\itch.png" >
+            </div>
          
         </div>
         <div class="card"> 
@@ -61,4 +68,8 @@
 
         </div>
     </div>
+    <!-- <div class="blur" (mousemove)="moverElemento($event)">
+  
+    
+      </div> -->
 </div>

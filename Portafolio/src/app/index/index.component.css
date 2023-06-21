@@ -6,7 +6,7 @@
 }
     
 .card{
-    border: 2px solid turquoise;
+    /* border: 2px solid turquoise; */
     padding-bottom: 2000px;
     margin-left: 510px;
     margin-right: 50px;
@@ -19,7 +19,7 @@
 
 /*Titeles  */
 .tittle{
-    border: 2px solid turquoise;
+    /* border: 2px solid turquoise; */
     padding: 0px 200px 20px 20px ;  
     position: fixed;
     left: 30px;
@@ -31,7 +31,9 @@
 .IndexSceamPosition{
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
+
 
 
 .animation{
@@ -57,3 +59,47 @@
   .animacion-activa-3 {
     width: 40px;
   }
+
+/* icons Panel */
+  .icons-panel{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 25px ;
+    align-items: baseline;
+    width: 180px;
+
+}
+
+.icon-img{
+    width:  25px;
+    height: 25px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.icon-img:hover{
+    filter: brightness(200%);
+    opacity: 1;
+    /* cursor: pointer; */
+}
+
+.blur{
+  position: relative;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.backgroundEffect{
+  position: fixed;
+  width: 1000px;
+  height: 1000px;
+  z-index: -1; 
+  transform: translate(-50%, -50%);
+  background-image: radial-gradient(ellipse at center, rgba(54, 39, 220, 0.191) 0%, rgba(255, 255, 255, 0) 70%);
+  background-size: auto;
+  background-position: center;
+  filter: blur(10px);
+}
+
+  

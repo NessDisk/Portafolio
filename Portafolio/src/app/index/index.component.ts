@@ -19,6 +19,17 @@ export class IndexComponent {
   isSelectec : Number = 0;
   isOVerSelecte : Number = 0;
 
+
+  posX: Number = 0;
+  posY: Number = 0;
+
+  moverElemento(event: MouseEvent) {
+    this.posX = event.clientX;
+    this.posY = event.clientY;
+    console.log("Segue elemento")
+  }
+
+
   scrollToPoint(value: Number) {
 
 

@@ -1,6 +1,6 @@
 <div class="continaer">
     <div class="cardProyect" (mouseenter)="enableHoverInfoCard_tittle()" (mouseleave)="disenableHoverInfoCard_tittle()" >
-    <div class="date_Tittle"> <img class="imgProyect" src="assets\img\e-comerce.PNG" alt="" ><br></div>
+    <div class="date_Tittle"> <img class="imgProyect"  src="assets\img\e-comerce.PNG" alt=""   [ngClass]="{'imgProyect-hover': BoolHoverInfoCard_Tittle}"><br></div>
     <div class="InfoCard">
        <div class="InfoCard_tittle" [ngClass]="{'InfoCard_tittle-hover': BoolHoverInfoCard_Tittle}"  >{{tittle}} </div >
        <div class="InfoCard_Sumary"> {{sumary}}</div>
