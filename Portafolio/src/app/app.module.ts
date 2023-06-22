@@ -14,6 +14,7 @@ import { DataService } from './../service/data.service';
 import { IndexComponent } from './index/index.component';
 import { CardProyectComponent } from './card-proyect/card-proyect.component';
 import { TagComponent } from './tag/tag.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { TagComponent } from './tag/tag.component';
     UnityComponent,
     IndexComponent,
     CardProyectComponent,
-    TagComponent
+    TagComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

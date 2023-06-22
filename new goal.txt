@@ -33,11 +33,32 @@ Version Desktop
 	+efectos
 		+ iluminacion que sigue al mouse <-x
 
+
+	
+	+ Pagina con la informacion detallada <=====
+		+ Ajustar pantalla. <- x
+		+ crear tablas <-x
+		+ poner elementos <-x
+		+ implementar informacion <-x
+		+ tag< <-x
+		+ return backpage <- x
+		+ revision diseño <- 
+ 		+ detalles
+
+	+ problema
+		+  efecto de opacidad sobre las cards de los proyectos
+		+  animacion <a/> Index to details (hover) 
+		*   	
+
+	+ experiecce  data 
+		+ reutilizar la card de proyects 
+
 	+informacionm
 		+ llenar 
-	
-	+Pagina con la informacion detallada
-		
+
+	+ Version Movil
+		+ Index
+		+ datils 	
 
 
 

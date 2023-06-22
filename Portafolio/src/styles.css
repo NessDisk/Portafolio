@@ -11,3 +11,7 @@ body {
     color: #fff;
     /* Agrega aquí los estilos adicionales para el modo oscuro */
   }
+
+  a {
+    text-decoration: none;
+  }

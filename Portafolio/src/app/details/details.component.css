@@ -1,0 +1,46 @@
+@import  './../index/index.component.css';
+@import  './../card-proyect/card-proyect.component.css';
+
+.compTable{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top:  100px;    
+
+}
+
+  table {
+    border-collapse: collapse;
+  }
+  td{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.184);
+    width: 180px; 
+    height: 50px;
+ 
+}
+
+    th{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.184);
+    width: 100px; 
+    height: 50px;
+
+    }
+
+    .encabezado {
+    
+        text-align: left;
+        
+    }
+
+    .linkStyle{
+      color: rgb(0, 255, 102);
+    }
+
+    .linkStyleTable{
+      color: rgb(201, 201, 201);
+    }
+
+
+    .tittleDetails{
+      font-size: 60px;
+    }

@@ -1,0 +1,44 @@
+
+<div class="continaer">
+        <div class="compTable" (mousemove)="moverElemento($event)">
+            <div class="backgroundEffect" [style.left.px]="posX" [style.top.px]="posY"></div>
+
+            <a  routerLink="/">
+               <h2 class="linkStyle">back page</h2> 
+            </a>
+            <h1 class="tittleDetails">
+               Proyectos
+            </h1>
+            <div>
+                <table >
+                    <tr class="encabezado">
+                      <th >Año</th>
+                      <th>Project</th>
+                      <th>Creado con</th>
+                      <th>Link</th>
+                    </tr>
+                    <tr *ngFor="let proyectname of getProyects()">
+                      <td >{{projects[proyectname]['año']}}</td>
+                      <td>{{projects[proyectname]['name']}} </td>
+                      <td>
+                            <div class="InfoCard_tag">
+                              <div   *ngFor="let tagname of getArrayToProyect(projects[proyectname]['tags'])" >
+                                  <app-tag [tagName]='tagname' ></app-tag>
+                              </div>
+                          </div>
+                    </td>
+                      <td><a class="linkStyleTable" href="projects[proyectname]['link']" > {{projects[proyectname]['link']}}  </a></td>
+                    </tr>
+                    <!-- <tr>
+                      <td>2019</td>
+                      <td>Jane Smith</td>
+                      <td>25</td>
+                    </tr> -->
+                  </table>
+            </div>
+           
+
+
+        </div>
+
+</div>
