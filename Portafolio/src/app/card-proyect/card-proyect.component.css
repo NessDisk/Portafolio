@@ -1,47 +1,123 @@
 
-.cardProyect{
-    display: flex;
-    flex-direction: row;
-    color: #ffffff;
-    background-color: #ffffff00;
-    transition: background-color  0.3s ease;
-    border-radius: 6px 6px 6px 6px;
-    margin-bottom: 10px;
-            }
+/* DESKTOP VERSION */
+@media (min-width: 767px) {
+    .cardProyect{
+        display: flex;
+        flex-direction: row;
+        color: #ffffff;
+        background-color: #ffffff00;
+        transition: background-color  0.3s ease;
+        border-radius: 6px 6px 6px 6px;
+        margin-bottom: 5px;
+                }
+
+                .date_Tittle{
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    width:  fit-content;
+                    height: fit-content;   
+                }
+                
+                .imgProyect{
+                    height: 11vh;
+                    width: 9vw;
+                    border: 1px rgba(255, 255, 255, 0) solid ;
+                    transition: border 0.3s ease;
+                }
+
+                .imgProyect-hover{
+                    border: 1px white solid ;
+                   }
+
+
+                   .InfoCard{
+
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    display: flex;
+                    flex-direction:  column;
+                    padding-bottom: 15px;
+                    width: 75%;
+                    height: 20vh;
+                
+                    
+                }
+
+}
+
+/* MOVIL VERSION */
+@media (max-width: 767px) {
+
+    .cardProyect{
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+        background-color: #ffffff00;
+        transition: background-color  0.3s ease;
+        border-radius: 6px 6px 6px 6px;
+        margin-bottom: 5px;
+                }
+
+                .cardProyect-imgMode{
+                    flex-direction: column-reverse;
+                   
+                }
+
+                .date_Tittle{
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    width:  fit-content;
+                    height: fit-content;   
+                }
+          
+                
+                .imgProyect{
+                    height: 15vh;
+                    width: 25vw;
+                    border: 1px rgba(255, 255, 255, 0) solid ;
+                    transition: border 0.3s ease;
+                }
+
+                .imgProyect-hover{
+                    border: 1px white solid ;
+                   }
+
+                .InfoCard{
+
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    display: flex;
+                    flex-direction:  column;
+                    /* padding-bottom: 15px; */
+                    width: 75%;
+                    height: 15vh;               
+                    
+                }
+
+                /* .InfoCard-imgMode{
+                    flex-direction: column-reverse;
+                   
+                } */
+}
+
+
+
 .cardProyect:hover{ 
     background-color: #ffffff17;
                   }
 
-.date_Tittle{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    width:  fit-content;
-    height: fit-content;   
+
+
+
+
+.date-info{
+    width: 25%;
+    color: red;
 }
 
-.imgProyect{
-    height: 11vh;
-    width: 9vw;
-    border: 1px rgba(255, 255, 255, 0) solid ;
-    transition: border 0.3s ease;
-}
 
-.imgProyect-hover{
- border: 1px white solid ;
-}
-.InfoCard{
-
-    margin-top: 10px;
-    margin-right: 10px;
-    display: flex;
-    flex-direction:  column;
-    padding-bottom: 15px;
-    width: 300%;
-    height: 20vh;
-
-    
-}
 
 
 .InfoCard_tittle{
@@ -67,3 +143,4 @@
     flex-direction: row;
     margin-top: 10px;
 }
+

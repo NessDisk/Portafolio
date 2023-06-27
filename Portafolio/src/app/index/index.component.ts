@@ -23,10 +23,28 @@ export class IndexComponent {
   posX: Number = 0;
   posY: Number = 0;
 
+//screen wight
+  screenWidth: number = 0;
+  screenwidthTrigger: boolean= false;
+
+  BoolshadowEffectcard: boolean = false;
+
+  enableBoolshadowEffectcard()
+  {
+    this.BoolshadowEffectcard = true;
+   
+  }
+
+  DisenableBoolshadowEffectcard()
+  {
+    this.BoolshadowEffectcard = false;
+    
+  }
+
   moverElemento(event: MouseEvent) {
     this.posX = event.clientX;
     this.posY = event.clientY;
-    console.log("Segue elemento")
+    // console.log("Segue elemento")
   }
 
 
@@ -113,6 +131,7 @@ export class IndexComponent {
 
     //inicializamos el selector
     this.onWindowScroll();
+    this.getScreenSize();
   }
 
   // selector index
@@ -133,7 +152,34 @@ export class IndexComponent {
 
  
   }
+// Screan wight
+  @HostListener('window:resize', ['$event'])
+  getScreenSize() {
+        this.screenWidth = window.innerWidth;
 
+        if(this.screenWidth > 767 )
+        {
+          this.screenwidthTrigger = true;
+        }
+        else{
+          this.screenwidthTrigger = false;
+        }
+
+        // console.log(this.screenWidth);
+
+  }
+
+  //exp
+  exps: any  = {
+    proyecto1: {
+      title: "a",
+      description: "asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aun aksjkajksnankjsnajk nan an naknajn jak jajbab absjnian ijabjbabhas ja",
+      tags: {a: "css",
+             b: "react",
+             c: "javascript"},
+        dateinfo:"2022 -Present"
+            }
+              };
 
   // info proyects
 
@@ -145,7 +191,9 @@ export class IndexComponent {
         a: "css",
         b: "react",
         c: "javascript"
-      }
+      },
+
+
     },
     proyecto2: {
       title: "b",
@@ -167,8 +215,8 @@ export class IndexComponent {
     },
   };
 
-  getProyects(): string[] {
-    return Object.keys(this.projects);
+  getProyects(obj: object): string[] {
+    return Object.keys(obj);
   }
 
   getArrayToProyect(obj: object ): string[] {

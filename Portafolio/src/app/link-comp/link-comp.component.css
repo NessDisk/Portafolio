@@ -1,0 +1,24 @@
+.linkContainer{
+    color: rgb(201, 201, 201);
+   
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.linkContainer:hover{
+    color: rgb(12, 200, 12);
+}
+
+.arrowAnimation{
+position: relative;
+left: 10px;
+transition: left 0.3s ease;
+}
+
+
+.MoveArrowAnimation{ 
+    left: 3px;   
+    }
+

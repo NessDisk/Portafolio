@@ -21,7 +21,7 @@ Version Desktop
 
 	*pagina de proyectos
 
-	+iconos <=
+	+iconos 
 		+poner iconos<-x
 
 
@@ -35,7 +35,7 @@ Version Desktop
 
 
 	
-	+ Pagina con la informacion detallada <=====
+	+ Pagina con la informacion detallada 
 		+ Ajustar pantalla. <- x
 		+ crear tablas <-x
 		+ poner elementos <-x
@@ -45,20 +45,28 @@ Version Desktop
 		+ revision diseño <- 
  		+ detalles
 
-	+ problema
-		+  efecto de opacidad sobre las cards de los proyectos
-		+  animacion <a/> Index to details (hover) 
-		*   	
+	+ problema <-x
+		+  efecto de opacidad sobre las cards de los proyectos <-x
+		+  animacion <a/> Index to details (hover) ← x
 
-	+ experiecce  data 
-		+ reutilizar la card de proyects 
+	+ experiecce  data <-x 
+		+ reutilizar la card de proyects ← x
 
 	+informacionm
 		+ llenar 
 
-	+ Version Movil
-		+ Index
-		+ datils 	
+	+ Version Movil <=
+		+ Index <==========
+			+ panel isquierdo ← x 
+			+ derecho ← x
+		+ cards 
+			+ position element ← 
+			+ img 
+			+ text
+			+ Create service define the wight px
+
+
+		+ datils component
 
 
 

@@ -1,32 +1,66 @@
 /* DESKTOP VERSION */
-.index{
+@media (min-width: 767px) {
+  .index{
     display: flex;
     flex-direction: row;
     justify-content: right;
 }
-    
-.card{
-    /* border: 2px solid turquoise; */
-    padding-bottom: 2000px;
-    margin-left: 510px;
-    margin-right: 50px;
-    /* margin-top: 50px; */
-    /* padding-left: 300px; */
-    padding-left: 50px;
-    padding-right: 50px;
-    align-items: center;
+
+.tittle{
+  /* border: 2px solid turquoise; */
+  padding: 0px 200px 20px 20px ;  
+  position: fixed;
+  left: 30px;  
+
 }
+
+.card{
+  /* border: 2px solid turquoise; */
+  padding-bottom: 2000px;
+  margin-left: 510px;
+  margin-right: 50px;
+  /* margin-top: 50px; */
+  /* padding-left: 300px; */
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+}
+}
+/* Smartphone Version  */
+@media (max-width: 767px) {
+  .index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tittle{
+  /* border: 2px solid turquoise; */
+  /* padding: 0px 200px 20px 20px ;   */
+  /* position: fixed;
+  left: 30px;
+  */ 
+}
+
+.card{
+  /* border: 2px solid turquoise; */
+  /* padding-bottom: 2000px;
+  margin-left: 510px;
+  margin-right: 50px; */
+  /* margin-top: 50px; */
+  /* padding-left: 300px; */
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  align-items: center;
+}
+}
+
+
+    
+
 
 /*Titeles  */
-.tittle{
-    /* border: 2px solid turquoise; */
-    padding: 0px 200px 20px 20px ;  
-    position: fixed;
-    left: 30px;
-   
-    
 
-}
 
 .IndexSceamPosition{
     display: flex;
@@ -102,4 +136,10 @@
   filter: blur(10px);
 }
 
-  
+.ToneCards:hover{
+  opacity: 100%;
+}
+
+.ShadowToneCards{
+  opacity: 50%;
+}

@@ -15,6 +15,7 @@ import { IndexComponent } from './index/index.component';
 import { CardProyectComponent } from './card-proyect/card-proyect.component';
 import { TagComponent } from './tag/tag.component';
 import { DetailsComponent } from './details/details.component';
+import { LinkCompComponent } from './link-comp/link-comp.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { DetailsComponent } from './details/details.component';
     IndexComponent,
     CardProyectComponent,
     TagComponent,
-    DetailsComponent
+    DetailsComponent,
+    LinkCompComponent
   ],
   imports: [
     BrowserModule,

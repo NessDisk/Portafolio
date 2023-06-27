@@ -12,10 +12,12 @@
                 ____ Mas informacion ____ <br>
                 
             </h4><br>
-
-        <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(1)" (mouseleave)="desactivarAnimacion()"> <p class="animation"  [ngClass]="{'animacion-activa-1': mostrarAnimacion1}" ></p>  <p (click)="scrollToPoint(1)">Index 1</p></div> 
-        <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(2)" (mouseleave)="desactivarAnimacion()"> <p class="animation"  [ngClass]="{'animacion-activa-2': mostrarAnimacion2}" ></p>  <p (click)="scrollToPoint(2)">Index 2</p></div>
-        <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(3)" (mouseleave)="desactivarAnimacion()"> <p class="animation"  [ngClass]="{'animacion-activa-3': mostrarAnimacion3}" ></p>  <p (click)="scrollToPoint(3)">Index 3</p></div>
+         <div *ngIf="screenwidthTrigger == true ">       
+ 
+                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(1)" (mouseleave)="desactivarAnimacion()"> <p class="animation"  [ngClass]="{'animacion-activa-1': mostrarAnimacion1}" ></p>  <p (click)="scrollToPoint(1)">Index 1</p></div> 
+                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(2)" (mouseleave)="desactivarAnimacion()"> <p class="animation"  [ngClass]="{'animacion-activa-2': mostrarAnimacion2}" ></p>  <p (click)="scrollToPoint(2)">Index 2</p></div>
+                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(3)" (mouseleave)="desactivarAnimacion()"> <p class="animation"  [ngClass]="{'animacion-activa-3': mostrarAnimacion3}" ></p>  <p (click)="scrollToPoint(3)">Index 3</p></div>
+        </div>   
 
             <div class="icons-panel"> 
                <img class="icon-img" src="assets\img\icons\grey\github.png" >
@@ -44,22 +46,19 @@
             <br> <br>
             <div>
                 Exp
+                <div  *ngFor="let proyectname of getProyects(exps)" >
+                    <app-card-proyect class="ToneCards" (mouseenter)="enableBoolshadowEffectcard()" (mouseleave)="DisenableBoolshadowEffectcard()"  [tittle]="exps[proyectname]['title']"  [sumary]="exps[proyectname]['description']" [tagList]="getArrayToProyect(exps[proyectname]['tags'])" [modeCard]="true"
+                    [dateActualWork]="exps[proyectname]['dateinfo']"
+                    ></app-card-proyect>               
+                </div>
             </div>
             <br><br>
             <div>
                 proyectos
-                <div  *ngFor="let proyectname of getProyects()" >
-                    <!-- <h2>{{ (projects[proyectname]) }}</h2> -->
-                    <!-- <h2>{{  projects[proyectname]['tags'] }}</h2> -->
-
-      
-                        <app-card-proyect [tittle]="projects[proyectname]['title']"  [sumary]="projects[proyectname]['description']" [tagList]="getArrayToProyect(projects[proyectname]['tags'])" ></app-card-proyect>
-               
-
+                <div  *ngFor="let proyectname of getProyects(this.projects)" >
+                        <app-card-proyect class="ToneCards" (mouseenter)="enableBoolshadowEffectcard()" (mouseleave)="DisenableBoolshadowEffectcard()" [ngClass]="{'ShadowToneCards': BoolshadowEffectcard}" [tittle]="projects[proyectname]['title']"  [sumary]="projects[proyectname]['description']" [tagList]="getArrayToProyect(projects[proyectname]['tags'])" [modeCard]="false" ></app-card-proyect>               
                 </div>
-                <!-- <app-card-proyect [tittle]="titulo"  [sumary]="resumen" [tag1]="tagtest" ></app-card-proyect> -->
-                <!-- <app-card-proyect></app-card-proyect>
-                <app-card-proyect></app-card-proyect> -->
+            
             </div>
             <div>
                <a routerLink="/details" > Ver proyectos</a> 

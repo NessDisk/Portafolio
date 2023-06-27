@@ -12,6 +12,8 @@ export class DetailsComponent {
   posX: Number = 0;
   posY: Number = 0;
 
+  
+
   moverElemento(event: MouseEvent) {
     this.posX = event.clientX;
     this.posY = event.clientY;
@@ -59,6 +61,12 @@ export class DetailsComponent {
   getArrayToProyect(obj: object ): string[] {
     return Object.values(obj);
   }
+
+  //animation arrows
+
+  
+
+
 
 
 }
