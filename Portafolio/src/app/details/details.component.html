@@ -10,7 +10,7 @@
                Proyectos
             </h1>
             <div>
-                <table >
+                <table  *ngIf=" movilVersion == false ; else elseBlock"  >
                     <tr class="encabezado">
                       <th >Año</th>
                       <th>Project</th>
@@ -30,13 +30,26 @@
                       <!-- <td><a class="linkStyleTable" () href="projects[proyectname]['link']" > {{projects[proyectname]['link']}}  <div>→</div> </a></td> -->
                       <td> <app-link-comp></app-link-comp> </td>
                        
-                    </tr>
-                    <!-- <tr>
-                      <td>2019</td>
-                      <td>Jane Smith</td>
-                      <td>25</td>
-                    </tr> -->
+                    </tr>                
                   </table>
+
+                <!-- movil version  -->
+                  <ng-template  #elseBlock >  
+                    <table >
+                    <tr class="encabezado">
+                      <th >Año</th>
+                      <th>Project</th>                      
+                      <th>Link</th>
+                    </tr>
+                    <tr *ngFor="let proyectname of getProyects()">
+                      <td >{{projects[proyectname]['año']}}</td>
+                      <td>{{projects[proyectname]['name']}} </td>
+                      
+                      <!-- <td><a class="linkStyleTable" () href="projects[proyectname]['link']" > {{projects[proyectname]['link']}}  <div>→</div> </a></td> -->
+                      <td> <app-link-comp></app-link-comp> </td>
+                       
+                    </tr>                
+                  </table> </ng-template>
             </div>
            
 

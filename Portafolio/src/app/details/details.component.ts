@@ -1,4 +1,4 @@
-import { Component  , ViewEncapsulation } from '@angular/core';
+import { Component  , ViewEncapsulation, HostListener, OnInit  } from '@angular/core';
 
 @Component({
   selector: 'app-details',
@@ -11,6 +11,8 @@ export class DetailsComponent {
   
   posX: Number = 0;
   posY: Number = 0;
+
+  movilVersion: boolean = false;
 
   
 
@@ -62,7 +64,34 @@ export class DetailsComponent {
     return Object.values(obj);
   }
 
-  //animation arrows
+  
+  //screen wight
+  screenWidth: number = 0;
+  screenwidthTrigger: boolean= false;
+
+  
+  ngOnInit(): void {
+
+    //inicializamos el selector
+    this.getScreenSize();
+  }
+
+  // Screan wight
+  @HostListener('window:resize', ['$event'])
+  getScreenSize() {
+    this.screenWidth = window.innerWidth;
+
+    if(this.screenWidth < 767 )
+    {
+      this.movilVersion = true;
+    }
+    else{
+      this.movilVersion = false;
+    }
+
+    console.log(this.screenWidth);
+
+}
 
   
 

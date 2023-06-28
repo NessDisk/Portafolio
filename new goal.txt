@@ -56,17 +56,20 @@ Version Desktop
 		+ llenar 
 
 	+ Version Movil <=
-		+ Index <==========
+		+ Index 
 			+ panel isquierdo ← x 
 			+ derecho ← x
 		+ cards 
 			+ position element ← 
-			+ img 
-			+ text
-			+ Create service define the wight px
+			+ img ← x 
+			+ text ← x
+			
+			 + eleminar metodo de la card y poner input
 
+		+ datils component <=====
 
-		+ datils component
-
+			* Eliminar table create with ←x		
+			+ ajustar tabla ← x
+			+ Create <<service>> define the wight px 
 
 

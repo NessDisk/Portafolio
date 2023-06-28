@@ -1,15 +1,29 @@
 @import  './../index/index.component.css';
 @import  './../card-proyect/card-proyect.component.css';
 
-
-
-.compTable{
+/* DESKTOP VERSION */
+@media (min-width: 767px) {
+  .compTable{
     display: flex;
     flex-direction: column;
     margin-left: 100px;
     margin-top:  100px;    
 
 }
+}
+/* MOVIL VERSION */
+
+@media (max-width: 767px) {
+
+  .compTable{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top:  50px;    
+
+}
+}
+
 
   table {
     border-collapse: collapse;
