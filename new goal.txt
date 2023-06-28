@@ -19,8 +19,8 @@ Version Desktop
 	  * img border animation <- x
 	  + rediseñar <- x
 
-	*pagina de proyectos
 
+	*pagina de proyectos ← x
 	+iconos 
 		+poner iconos<-x
 
@@ -52,8 +52,7 @@ Version Desktop
 	+ experiecce  data <-x 
 		+ reutilizar la card de proyects ← x
 
-	+informacionm
-		+ llenar 
+
 
 	+ Version Movil <=
 		+ Index 
@@ -71,5 +70,17 @@ Version Desktop
 			* Eliminar table create with ←x		
 			+ ajustar tabla ← x
 			+ Create <<service>> define the wight px 
+
+		+ retoques finales
+			+ Poner la animacion de flecha correcta
+			+ Error version movil tamaño card 
+			+ fuentes 
+			+ tamaños de letras
+			+ revision 
+			+ Quitar efectos hover de la card
+			+ ajustar cards
+		
+		+informacionm
+			+ llenar 
 
 
