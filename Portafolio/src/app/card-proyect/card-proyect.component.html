@@ -1,16 +1,21 @@
 <div class="continaer">
-    <div class="cardProyect" (mouseenter)="enableHoverInfoCard_tittle()" (mouseleave)="disenableHoverInfoCard_tittle()" [ngClass]="{'cardProyect-imgMode':screenwidthTrigger}" >
-    <div class="date_Tittle"> <img class="imgProyect" *ngIf="modeCard == false ; else elseBlock"  src="assets\img\e-comerce.PNG" alt=""   [ngClass]="{'imgProyect-hover': BoolHoverInfoCard_Tittle}" >
-                              <ng-template class="date-info"   #elseBlock > {{dateActualWork}} </ng-template>
-      <br></div>
-    <div class="InfoCard">
-       <div class="InfoCard_tittle" [ngClass]="{'InfoCard_tittle-hover': BoolHoverInfoCard_Tittle}"  >{{tittle}}  <div class="linkComparrowAnimation" [ngClass]="{linkCompMoveArrowAnimation: BoolHoverInfoCard_Tittle}" >↗</div>   </div >
-       <div class="InfoCard_Sumary"> {{sumary}}</div>
-       <div class="InfoCard_tag">
-          <div   *ngFor="let tagname of tagList" >
-             <app-tag [tagName]='tagname' ></app-tag>
-          </div>
-       </div>
-    </div>
- </div>
- </div>
+   <div class="cardProyect" (mouseenter)="enableHoverInfoCard_tittle()" (mouseleave)="disenableHoverInfoCard_tittle()" [ngClass]="{'cardProyect-imgMode':screenwidthTrigger}" >
+   <div class="date_Tittle">
+      <img class="imgProyect" *ngIf="modeCard == false ; else elseBlock"  src="assets\img\e-comerce.PNG" alt=""   [ngClass]="{'imgProyect-hover': BoolHoverInfoCard_Tittle}" >
+      <ng-template class="date-info"   #elseBlock > {{dateActualWork}} </ng-template>
+      <br>
+   </div>
+   <div class="InfoCard">
+      <div class="InfoCard_tittle" [ngClass]="{'InfoCard_tittle-hover': BoolHoverInfoCard_Tittle}"  >
+         {{tittle}}  
+         <div class="linkComparrowAnimation" [ngClass]="{linkCompMoveArrowAnimation: BoolHoverInfoCard_Tittle}" >↗</div>
+      </div >
+      <div class="InfoCard_Sumary"> {{sumary}}</div>
+      <div class="InfoCard_tag">
+         <div   *ngFor="let tagname of tagList" >
+            <app-tag [tagName]='tagname' ></app-tag>
+         </div>
+      </div>
+   </div>
+</div>
+</div>

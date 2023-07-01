@@ -7,7 +7,7 @@ import { DataService } from '../../service/data.service';
   selector: 'app-index',
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.css'],
-  encapsulation: ViewEncapsulation.None
+  
 })
 export class IndexComponent {
 

@@ -14,6 +14,8 @@ export class DetailsComponent {
 
   movilVersion: boolean = false;
 
+  animationTittle: boolean = false;
+
   
 
   moverElemento(event: MouseEvent) {
@@ -21,6 +23,19 @@ export class DetailsComponent {
     this.posY = event.clientY;
 
   }
+
+//tittle back page
+enableHoverDetailsComeback()
+{
+  this.animationTittle = true; 
+  
+}
+
+disenableHoverDetailsComeback()
+{
+  this.animationTittle = false; 
+
+}
 
 
   projects: any  = {
@@ -103,7 +118,6 @@ export class DetailsComponent {
 }
 
   
-
 
 
 

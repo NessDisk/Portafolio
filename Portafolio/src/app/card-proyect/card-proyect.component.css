@@ -134,7 +134,10 @@
     transition: color  0.3s ease;
 }
 
-
+.InfoCard_tittle_Details{
+font-size:25px;
+color:rgb(99, 233, 224);
+}
 
 
 .InfoCard_tittle-hover{

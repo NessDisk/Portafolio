@@ -1,6 +1,7 @@
 @import  './../index/index.component.css';
 @import  './../card-proyect/card-proyect.component.css';
 @import  './../link-comp/link-comp.component.css';
+
 /*  font-family: 'Poppins_bold', sans-serif;  */
 
 /* DESKTOP VERSION */
@@ -52,6 +53,7 @@
 
     .linkStyle{
       color: rgb(201, 201, 201);
+    
     }
     .linkStyle:hover{
       color: rgb(0, 255, 102);
@@ -90,3 +92,24 @@
     h2{
       margin: 0;
     }
+
+
+    /* animation arrow  come back page Details*/
+    .details_ArrowAnimation{
+      position: relative;
+      left: -10px;
+      top:  5px; 
+      transition: left 0.2s ease  ;
+      width: 1.5vw;
+      height: 1.5vh;
+      font-family:  'Inter', sans-serif; 
+      font-size: 20px;
+      
+      }
+      
+      
+      .details_MoveArrowAnimation{ 
+          left: -20px;  
+          /* top:  -4px;  */
+          }
+      
