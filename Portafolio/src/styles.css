@@ -15,3 +15,34 @@ body {
   a {
     text-decoration: none;
   }
+
+
+  @font-face {
+    font-family: 'RobotoCondensed-Bold'; 
+    src: url('../src/assets/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf');
+    
+  }
+
+  @font-face {
+    font-family: 'Poppins'; 
+    src: url('../src/assets/fonts/Poppins/Poppins-SemiBold.ttf'); 
+    
+  }
+
+  @font-face {
+    font-family: 'Poppins_light'; 
+    src: url('../src/assets/fonts/Poppins/Poppins-Light.ttf');   
+  }
+
+  @font-face {
+    font-family: 'Poppins_bold'; 
+    src: url('../src/assets/fonts/Poppins/Poppins-Medium.ttf');   
+  }
+
+  @font-face {
+    font-family: 'Inter'; 
+    src: url('../src/assets/fonts/Inter/Inner-12/Desktop/Inter-Light.ttf ');   
+  }
+  body{
+    font-family: 'Poppins_light', sans-serif;
+  }

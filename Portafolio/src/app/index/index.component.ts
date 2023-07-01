@@ -1,11 +1,13 @@
-import { Component, HostListener , OnInit } from '@angular/core';
+import { Component, HostListener , OnInit , ViewEncapsulation } from '@angular/core';
 import { CardProyectComponent } from '../card-proyect/card-proyect.component';
+import { DataService } from '../../service/data.service';
 
 
 @Component({
   selector: 'app-index',
   templateUrl: './index.component.html',
-  styleUrls: ['./index.component.css']
+  styleUrls: ['./index.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class IndexComponent {
 
@@ -28,6 +30,11 @@ export class IndexComponent {
   screenwidthTrigger: boolean= false;
 
   BoolshadowEffectcard: boolean = false;
+
+  // constructor(private dataService: DataService) {
+  //   this.screenwidthTrigger = this.dataService.getScreenSize();
+  //   console.log(this.dataService.getScreenSize());
+  //  }
 
   enableBoolshadowEffectcard()
   {
@@ -132,6 +139,10 @@ export class IndexComponent {
     //inicializamos el selector
     this.onWindowScroll();
     this.getScreenSize();
+    // this.dataService.setScreenSize();
+    // this.screenwidthTrigger = this.dataService.getScreenSize();
+    // console.log(this.dataService.getScreenSize());
+    
   }
 
   // selector index
@@ -164,8 +175,9 @@ export class IndexComponent {
         else{
           this.screenwidthTrigger = false;
         }
+        console.log(this.screenWidth);
 
-        // console.log(this.screenWidth);
+
 
   }
 
@@ -177,7 +189,7 @@ export class IndexComponent {
       tags: {a: "css",
              b: "react",
              c: "javascript"},
-        dateinfo:"2022 -Present"
+        dateinfo:"2022 -PRESENT"
             }
               };
 

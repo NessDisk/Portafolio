@@ -4,7 +4,8 @@
             <div class="backgroundEffect" [style.left.px]="posX" [style.top.px]="posY"></div>
 
             <a  routerLink="/">
-               <h2 class="linkStyle">back page</h2> 
+               <h2 class="linkStyle">back page </h2>
+                <!-- <div class="linkComparrowAnimation" [ngClass]="{linkCompMoveArrowAnimation:Movearrow}" >↗</div>   -->
             </a>
             <h1 class="tittleDetails">
                Proyectos
@@ -12,15 +13,15 @@
             <div>
                 <table  *ngIf=" movilVersion == false ; else elseBlock"  >
                     <tr class="encabezado">
-                      <th >Año</th>
+                      <th  class="date-Style" >Año</th>
                       <th>Project</th>
-                      <th>Creado con</th>
+                      <th class="create-col-Style">Creado con</th>
                       <th>Link</th>
                     </tr>
                     <tr *ngFor="let proyectname of getProyects()">
-                      <td >{{projects[proyectname]['año']}}</td>
+                      <td class="col-style"  >{{projects[proyectname]['año']}}</td>
                       <td>{{projects[proyectname]['name']}} </td>
-                      <td>
+                      <td class="create-col-Style">
                             <div class="InfoCard_tag">
                               <div   *ngFor="let tagname of getArrayToProyect(projects[proyectname]['tags'])" >
                                   <app-tag [tagName]='tagname' ></app-tag>

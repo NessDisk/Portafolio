@@ -4,19 +4,16 @@
         <div class="backgroundEffect" [style.left.px]="posX" [style.top.px]="posY"></div>
         <div class="tittle">
             
-            <h2>____ Nombre __________</h2>
+            <h2 class="tittle_name">Nestor J Solera</h2>
             
-            <h4>____ Mas informacion ____ <br>
-                ____ Mas informacion ____ <br>
-                ____ Mas informacion ____ <br>
-                ____ Mas informacion ____ <br>
-                
-            </h4><br>
+            <h4 class=" title_charge"> Desarrollador  Fullstack web</h4>
+            <h4 class="tittle_personal" > mensaje personal</h4>
+
          <div *ngIf="screenwidthTrigger == true ">       
  
-                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(1)" (mouseleave)="desactivarAnimacion()"> <p class="animation"  [ngClass]="{'animacion-activa-1': mostrarAnimacion1}" ></p>  <p (click)="scrollToPoint(1)">Index 1</p></div> 
-                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(2)" (mouseleave)="desactivarAnimacion()"> <p class="animation"  [ngClass]="{'animacion-activa-2': mostrarAnimacion2}" ></p>  <p (click)="scrollToPoint(2)">Index 2</p></div>
-                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(3)" (mouseleave)="desactivarAnimacion()"> <p class="animation"  [ngClass]="{'animacion-activa-3': mostrarAnimacion3}" ></p>  <p (click)="scrollToPoint(3)">Index 3</p></div>
+                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(1)" (mouseleave)="desactivarAnimacion()" (click)="scrollToPoint(1)"> <p class="animation"  [ngClass]="{'animacion-activa-1': mostrarAnimacion1}" ></p>  <p  class="pointerScrean" [ngClass]="{'font-poiner-1': mostrarAnimacion1}"   >POINTER 1</p></div> 
+                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(2)" (mouseleave)="desactivarAnimacion()" (click)="scrollToPoint(2)">  <p class="animation"  [ngClass]="{'animacion-activa-2': mostrarAnimacion2}" ></p>  <p  class="pointerScrean" [ngClass]="{'font-poiner-2': mostrarAnimacion2}" >POINTER 2</p></div>
+                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(3)" (mouseleave)="desactivarAnimacion()" (click)="scrollToPoint(3)"> <p class="animation"  [ngClass]="{'animacion-activa-3': mostrarAnimacion3}" ></p>  <p  class="pointerScrean" [ngClass]="{'font-poiner-3': mostrarAnimacion3}" >POINTER 3</p></div>
         </div>   
 
             <div class="icons-panel"> 
@@ -28,20 +25,10 @@
          
         </div>
         <div class="card"> 
-                <p>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>            
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
-                    mucho texto: ------------------------------------------  ------------------------------------------<br>
+                <p class="aboutMe">
+                    Uno de mis sueños <b> repetitivos es la capacidad</b> de volar. No como un halcón, ni como un avión, sino más bien como yo mismo, tal cual como Peter Pan. <br/> <br/>
+
+                     Sin aprovechar las fuerzas de la naturaleza y sin herramientas. <b> Únicamente de un impulso desde </b> el mismo suelo alzar el vuelo, sin alejarme mucho del mismo, pero lo suficiente como para volar por <b> debajo de los techos </b> de interiores y por encima de tejados de exteriores.
                 </p>
             <br> <br>
             <div>

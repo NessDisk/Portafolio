@@ -1,5 +1,7 @@
 @import  './../index/index.component.css';
 @import  './../card-proyect/card-proyect.component.css';
+@import  './../link-comp/link-comp.component.css';
+/*  font-family: 'Poppins_bold', sans-serif;  */
 
 /* DESKTOP VERSION */
 @media (min-width: 767px) {
@@ -30,18 +32,18 @@
   }
   td{
     border-bottom: 1px solid rgba(255, 255, 255, 0.184);
-    width: 180px; 
+    width: 300x; 
     height: 50px;
  
 }
 
     th{
     border-bottom: 1px solid rgba(255, 255, 255, 0.184);
-    width: 100px; 
+    width: 300px; 
     height: 50px;
 
     }
-
+  
     .encabezado {
     
         text-align: left;
@@ -49,6 +51,9 @@
     }
 
     .linkStyle{
+      color: rgb(201, 201, 201);
+    }
+    .linkStyle:hover{
       color: rgb(0, 255, 102);
     }
 
@@ -63,4 +68,25 @@
 
     .tittleDetails{
       font-size: 60px;
+      margin: 0;
+      margin-bottom: 40px;
+    }
+
+    .col-style{
+      font-size: small;
+      color: rgb(148 , 163 , 184);
+      width: 50px; 
+      /* display: inline-table; */
+    }
+
+    .date-Style{
+      width: 50px; 
+    }
+
+    .create-col-Style{
+      /* width: 10px;  */
+      /* padding-left: 50px ; */
+    }
+    h2{
+      margin: 0;
     }

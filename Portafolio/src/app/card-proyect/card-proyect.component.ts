@@ -1,9 +1,10 @@
-import { Component, HostListener , Input , OnInit } from '@angular/core';
+import { Component, HostListener , Input , OnInit , ViewEncapsulation  } from '@angular/core';
 
 @Component({
   selector: 'app-card-proyect',
   templateUrl: './card-proyect.component.html',
-  styleUrls: ['./card-proyect.component.css']
+  styleUrls: ['./card-proyect.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class CardProyectComponent {
 
@@ -49,7 +50,7 @@ export class CardProyectComponent {
       this.screenwidthTrigger = false;
     }
 
-    console.log(this.screenWidth,this.modeCard);
+    // console.log(this.screenWidth,this.modeCard);
 
 }
 

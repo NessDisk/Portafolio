@@ -8,17 +8,25 @@
 }
 
 .linkContainer:hover{
-    color: rgb(12, 200, 12);
+    color: rgb(0, 255, 102);
 }
 
-.arrowAnimation{
+.linkComparrowAnimation{
 position: relative;
-left: 10px;
-transition: left 0.3s ease;
+left: 5px;
+top:  1px; 
+transition: left 0.2s ease , top 0.2s ease ;
+/* transition: top 0.3s ease-in; */
+width: 1.5vw;
+height: 1.5vh;
+font-family:  'Inter', sans-serif; 
+font-size: 20px;
+
 }
 
 
-.MoveArrowAnimation{ 
-    left: 3px;   
+.linkCompMoveArrowAnimation{ 
+    left: 10px;  
+    top:  -4px; 
     }
 

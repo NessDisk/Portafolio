@@ -63,13 +63,15 @@ Version Desktop
 			+ img ← x 
 			+ text ← x
 			
-			 + eleminar metodo de la card y poner input
+			 + eleminar metodo de la card y poner input <-o
+			 	
 
 		+ datils component <=====
 
 			* Eliminar table create with ←x		
 			+ ajustar tabla ← x
-			+ Create <<service>> define the wight px 
+			+ Create <<service>> define the wight px <-o
+				+ compartir metodo desde el Index  <-o
 
 		+ retoques finales
 			+ Poner la animacion de flecha correcta

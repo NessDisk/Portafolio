@@ -1,4 +1,4 @@
-
+@import  './../link-comp/link-comp.component.css';
 /* DESKTOP VERSION */
 @media (min-width: 767px) {
     .cardProyect{
@@ -12,11 +12,15 @@
                 }
 
                 .date_Tittle{
-                    margin-top: 10px;
+                    margin-top: 13px;
                     margin-left: 10px;
                     margin-right: 10px;
-                    width:  fit-content;
+                    /* width:  fit-content; */
+                    width: 10vw;
                     height: fit-content;   
+                    color: rgb(148 , 163 , 184);
+                    font-size: small;
+                    /* margin-top: 5px; */
                 }
                 
                 .imgProyect{
@@ -39,7 +43,7 @@
                     flex-direction:  column;
                     padding-bottom: 15px;
                     width: 75%;
-                    height: 20vh;
+                    /* height: 20vh; */
                 
                     
                 }
@@ -70,6 +74,7 @@
                     margin-right: 10px;
                     width:  fit-content;
                     height: fit-content;   
+                    
                 }
           
                 
@@ -113,14 +118,18 @@
 
 
 .date-info{
-    width: 25%;
-    color: red;
+
+    /* width: 30%; */
+   
+
 }
 
 
 
 
 .InfoCard_tittle{
+    display: flex;
+    flex-direction: row;
     color: white;
     transition: color  0.3s ease;
 }
@@ -129,18 +138,24 @@
 
 
 .InfoCard_tittle-hover{
-    color: rgb(144, 255, 181);
+    /* color: rgb(144, 255, 181); */
+    color:rgb(99, 233, 224);
 }
 
 .InfoCard_Sumary{
     display: flex;
-    color: rgb(188, 188, 188);
+    color: rgb(148 , 163 , 184);
 }
 
 .InfoCard_tag{
 
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    max-width: 300px;
     margin-top: 10px;
+    
 }
+
+/* arrow animation card */
 

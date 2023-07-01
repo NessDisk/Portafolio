@@ -4,7 +4,7 @@
                               <ng-template class="date-info"   #elseBlock > {{dateActualWork}} </ng-template>
       <br></div>
     <div class="InfoCard">
-       <div class="InfoCard_tittle" [ngClass]="{'InfoCard_tittle-hover': BoolHoverInfoCard_Tittle}"  >{{tittle}} </div >
+       <div class="InfoCard_tittle" [ngClass]="{'InfoCard_tittle-hover': BoolHoverInfoCard_Tittle}"  >{{tittle}}  <div class="linkComparrowAnimation" [ngClass]="{linkCompMoveArrowAnimation: BoolHoverInfoCard_Tittle}" >↗</div>   </div >
        <div class="InfoCard_Sumary"> {{sumary}}</div>
        <div class="InfoCard_tag">
           <div   *ngFor="let tagname of tagList" >

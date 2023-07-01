@@ -50,7 +50,16 @@ export class DetailsComponent {
       tags: {
         a: "css",
         b: "react",
-        c: "javascript"
+        c: "javascript",
+        // d: "css",
+        // e: "react",
+        // f: "javascript",
+        // g: "css",
+        // h: "react",
+        // i: "javascript",
+        // n: "css",
+        // l: "react",
+        // m: "javascript"
       },
       link:"testLink",
     },
