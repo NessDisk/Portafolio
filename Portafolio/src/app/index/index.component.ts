@@ -31,10 +31,23 @@ export class IndexComponent {
 
   BoolshadowEffectcard: boolean = false;
 
-  // constructor(private dataService: DataService) {
-  //   this.screenwidthTrigger = this.dataService.getScreenSize();
-  //   console.log(this.dataService.getScreenSize());
-  //  }
+
+
+  // viewproyect
+ boolEnableIndexToDetails: boolean = false;
+
+  enableHoverIndexToDetails()
+  {
+this.boolEnableIndexToDetails = true;
+  }
+
+
+  disenableHoverIndexToDetails()
+  {
+    this.boolEnableIndexToDetails = false;
+  }
+  
+  // 
 
   enableBoolshadowEffectcard()
   {

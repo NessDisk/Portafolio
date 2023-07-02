@@ -48,7 +48,11 @@
             
             </div>
             <div>
-               <a routerLink="/details" > Ver proyectos</a> 
+               <!-- <a routerLink="/details" > Ver proyectos</a>  -->
+               <a (mouseenter)="enableHoverIndexToDetails()"  (mouseleave)="disenableHoverIndexToDetails()" routerLink="/details" class=" index_VeiwPoroyects "  >      
+                  <div [ngClass]="{index_viewDetailsText: boolEnableIndexToDetails}">Ver todos los proyectos </div> 
+                <div class="index_ArrowAnimation" [ngClass]="{index_MoveArrowAnimation: boolEnableIndexToDetails}" >→</div>
+              </a >
             </div>
 
             <br><br>
