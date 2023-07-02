@@ -7,10 +7,10 @@
                <h2 class="linkStyle">back page  <div class="linkComparrowAnimation" [ngClass]="{linkCompMoveArrowAnimation:true}" >↗</div>  </h2>
                 
             </a> -->
-            <!-- <a (mouseenter)="enableHoverDetailsComeback()"  (mouseleave)="disenableHoverDetailsComeback()" routerLink="/" class="InfoCard_tittle InfoCard_tittle_Details" [ngClass]="{'InfoCard_tittle-hover': animationTittle}"  >      
+            <a (mouseenter)="enableHoverDetailsComeback()"  (mouseleave)="disenableHoverDetailsComeback()" routerLink="/" class="InfoCard_tittle InfoCard_tittle_Details" [ngClass]="{'InfoCard_tittle-hover': animationTittle}"  >      
               <div class="details_ArrowAnimation" [ngClass]="{details_MoveArrowAnimation: animationTittle}" >←</div>
               Nestor Solera
-            </a > -->
+            </a >
 
             <h1 class="tittleDetails">
                Proyectos
@@ -29,7 +29,7 @@
                       <td class="create-col-Style">
                             <div class="InfoCard_tag">
                               <div   *ngFor="let tagname of getArrayToProyect(projects[proyectname]['tags'])" >
-                                  <app-tag [tagName]='tagname' ></app-tag>
+                                  <!-- <app-tag [tagName]='tagname' ></app-tag> -->
                               </div>
                           </div>
                        </td>
