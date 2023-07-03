@@ -105,7 +105,7 @@ disenableHoverDetailsComeback()
   getScreenSize() {
     this.screenWidth = window.innerWidth;
 
-    if(this.screenWidth < 767 )
+    if(this.screenWidth < 1015 )
     {
       this.movilVersion = true;
     }

@@ -1,6 +1,6 @@
 
 /* DESKTOP VERSION */
-@media (min-width: 767px) {
+@media (min-width: 1015px) {
  
   .index{
     display: flex;
@@ -76,7 +76,7 @@ h4{
 
 }
 /* Smartphone Version  */
-@media (max-width: 767px) {
+@media (max-width: 1015px) {
   .index{
     display: flex;
     flex-direction: column;
@@ -201,12 +201,15 @@ h4{
   }
   .font-poiner-1{
     opacity: 100%;
+    filter: brightness(200%);
   }
   .font-poiner-2{
     opacity: 100%;
+    filter: brightness(200%);
   }
   .font-poiner-3{
     opacity: 100%;
+    filter: brightness(200%);
   }
 
   /* about me  */
@@ -237,14 +240,14 @@ b:hover{
 }
 
 .icon-img{
-    width:  25px;
-    height: 25px;
+    width:  30px;
+    height: 30px;
     opacity: 0.5;
     cursor: pointer;
 }
 
 .icon-img:hover{
-    filter: brightness(200%);
+    /* filter: brightness(100%); */
     opacity: 1;
     /* cursor: pointer; */
 }

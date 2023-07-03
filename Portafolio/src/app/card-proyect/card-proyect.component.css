@@ -1,6 +1,6 @@
 @import  './../link-comp/link-comp.component.css';
 /* DESKTOP VERSION */
-@media (min-width: 767px) {
+@media (min-width: 1015px) {
     .cardProyect{
         display: flex;
         flex-direction: row;
@@ -55,7 +55,7 @@
 }
 
 /* MOVIL VERSION */
-@media (max-width: 767px) {
+@media (max-width: 1015px) {
 
     .cardProyect{
         display: flex;
@@ -88,7 +88,7 @@
                 
                 .imgProyect{
                     height: 20vh;
-                    width: 45vw;
+                    width: 25vw;
                     border: 1px rgba(255, 255, 255, 0) solid ;
                     transition: border 0.3s ease;
                 }
@@ -116,7 +116,16 @@
 }
 
 
+@media (max-width:600px) {
+  
+    .imgProyect{
+        height: 20vh;
+        width: 45vw;
+        border: 1px rgba(255, 255, 255, 0) solid ;
+        transition: border 0.3s ease;
+    }
 
+}
 
 
 

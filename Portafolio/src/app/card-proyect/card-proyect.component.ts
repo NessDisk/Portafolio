@@ -42,7 +42,7 @@ export class CardProyectComponent {
   getScreenSize() {
     this.screenWidth = window.innerWidth;
 
-    if(this.screenWidth < 767 && this.modeCard == false )
+    if(this.screenWidth < 1015 && this.modeCard == false )
     {
       this.screenwidthTrigger = true;
     }

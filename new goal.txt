@@ -86,6 +86,7 @@ Version Desktop
 			+ revisar detalles 
 			+ quitars Styles innecesarios
 			+ ajustar el tamaños de las imagenes
+			+ Ajustar resolucion responsive.
 		
 		+informacionm
 			+ llenar 

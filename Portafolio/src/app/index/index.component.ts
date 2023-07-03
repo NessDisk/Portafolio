@@ -181,7 +181,7 @@ this.boolEnableIndexToDetails = true;
   getScreenSize() {
         this.screenWidth = window.innerWidth;
 
-        if(this.screenWidth > 767 )
+        if(this.screenWidth > 1015 )
         {
           this.screenwidthTrigger = true;
         }
