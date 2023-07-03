@@ -43,12 +43,12 @@
                   <ng-template  #elseBlock >  
                     <table >
                     <tr class="encabezado">
-                      <th >Año</th>
+                      <th class="date-Style" >Año</th>
                       <th>Project</th>                      
                       <th>Link</th>
                     </tr>
                     <tr *ngFor="let proyectname of getProyects()">
-                      <td >{{projects[proyectname]['año']}}</td>
+                      <td class="col-style"  >{{projects[proyectname]['año']}}</td>
                       <td>{{projects[proyectname]['name']}} </td>
                       
                       <!-- <td><a class="linkStyleTable" () href="projects[proyectname]['link']" > {{projects[proyectname]['link']}}  <div>→</div> </a></td> -->
