@@ -1,7 +1,7 @@
 
 <div class="continaer">
         <div class="compTable" (mousemove)="moverElemento($event)">
-            <div class="backgroundEffect" [style.left.px]="posX" [style.top.px]="posY"></div>
+            <div class="backgroundEffect" [style.left.px]="posX" [style.top.px]="posY" [ngClass]="{display_background_efect: movilVersion == true}"></div>
 
             <!-- <a  routerLink="/">
                <h2 class="linkStyle">back page  <div class="linkComparrowAnimation" [ngClass]="{linkCompMoveArrowAnimation:true}" >↗</div>  </h2>

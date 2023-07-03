@@ -1,6 +1,7 @@
 
 /* DESKTOP VERSION */
 @media (min-width: 767px) {
+ 
   .index{
     display: flex;
     flex-direction: row;
@@ -49,10 +50,28 @@ h4{
   margin-bottom: 10px;
   
 }
+.tittlesTopic{
+  font-family: 'Inter_Bold', sans-serif;
+  font-size: larger;
+  margin: 0;
+  /* display: none; */
+              }
+
 .tittle_personal{
   margin-top: 0;
   color: rgba(255, 255, 255, 0.509);
   margin-bottom: 60px;
+}
+.aboutMe{
+  color: rgb(148 , 163 , 184)
+}
+
+.ToneCards:hover{
+  opacity: 100%;
+}
+
+.ShadowToneCards{
+  opacity: 50%;
 }
 
 }
@@ -61,7 +80,8 @@ h4{
   .index{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    /* margin-right: 80px; */
 }
 
 .tittle{
@@ -81,13 +101,48 @@ h4{
   /* padding-left: 300px; */
   /* padding-left: 50px;
   padding-right: 50px; */
+  margin-top: 100px;
   align-items: center;
 }
+
+.tittle_name{
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* margin-bottom: 0; */
+  font-family: 'Inter_Bold', sans-serif; 
+  /* opacity: 90%; */
+  color: rgba(255, 255, 255, 0.871);
+}
+
+
+.tittlesTopic{
+  font-family: 'Inter_Bold', sans-serif;
+  font-size: larger;
+  margin: 0;
+
+}
+.ToneCards:hover{
+  opacity: 100%;
+}
+
+.ShadowToneCards{
+  /* opacity: 50%; */
+}
+
+
+}
+
+.display_background_efect{
+  display: none;
 }
 
 
     
-
+.aboutMe{
+  color: rgb(148 , 163 , 184);
+  /* margin-top: 100px; */
+}
 
 /*Titeles  */
 
@@ -156,9 +211,7 @@ h4{
 
   /* about me  */
 
-.aboutMe{
-  color: rgb(148 , 163 , 184)
-}
+
 
 b{
   color: rgb(208, 213, 221)
@@ -215,13 +268,7 @@ b:hover{
   filter: blur(10px);
 }
 
-.ToneCards:hover{
-  opacity: 100%;
-}
 
-.ShadowToneCards{
-  opacity: 50%;
-}
 
 
 /* view proyects */

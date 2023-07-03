@@ -11,6 +11,10 @@
         margin-bottom: 5px;
                 }
 
+                .cardProyect:hover{ 
+                    background-color: #ffffff17;
+                                  }
+
                 .date_Tittle{
                     margin-top: 13px;
                     margin-left: 10px;
@@ -61,12 +65,16 @@
         transition: background-color  0.3s ease;
         border-radius: 6px 6px 6px 6px;
         margin-bottom: 5px;
+        width:  125vw;
                 }
 
                 .cardProyect-imgMode{
                     flex-direction: column-reverse;
                    
                 }
+                .cardProyect:hover{ 
+                    /* background-color: #ffffff17; */
+                                  }
 
                 .date_Tittle{
                     margin-top: 10px;
@@ -79,8 +87,8 @@
           
                 
                 .imgProyect{
-                    height: 15vh;
-                    width: 25vw;
+                    height: 20vh;
+                    width: 45vw;
                     border: 1px rgba(255, 255, 255, 0) solid ;
                     transition: border 0.3s ease;
                 }
@@ -109,9 +117,7 @@
 
 
 
-.cardProyect:hover{ 
-    background-color: #ffffff17;
-                  }
+
 
 
 

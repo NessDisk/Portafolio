@@ -27,6 +27,17 @@
 }
 }
 
+.backgroundEffect{
+  position: fixed;
+  width: 1000px;
+  height: 1000px;
+  z-index: -1; 
+  transform: translate(-50%, -50%);
+  background-image: radial-gradient(ellipse at center, rgba(54, 39, 220, 0.191) 0%, rgba(255, 255, 255, 0) 70%);
+  background-size: auto;
+  background-position: center;
+  filter: blur(10px);
+}
 
   table {
     border-collapse: collapse;
@@ -110,3 +121,7 @@
           /* top:  -4px;  */
           }
       
+      .display_background_efect{
+      display: none;
+
+          }

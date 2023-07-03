@@ -1,7 +1,7 @@
 <div class="continaer">
     
     <div class="index" (mousemove)="moverElemento($event)">
-        <div class="backgroundEffect" [style.left.px]="posX" [style.top.px]="posY"></div>
+        <div class="backgroundEffect" [style.left.px]="posX" [style.top.px]="posY" [ngClass]="{display_background_efect: screenwidthTrigger == false}"></div>
         <div class="tittle">
             
             <h2 class="tittle_name">Nestor J Solera</h2>
@@ -25,6 +25,7 @@
          
         </div>
         <div class="card"> 
+                <h6 class="tittlesTopic"> AboutMe</h6>
                 <p class="aboutMe">
                     Uno de mis sueños <b> repetitivos es la capacidad</b> de volar. No como un halcón, ni como un avión, sino más bien como yo mismo, tal cual como Peter Pan. <br/> <br/>
 
@@ -32,7 +33,7 @@
                 </p>
             <br> <br>
             <div>
-                Exp
+                <h6 class="tittlesTopic"> Experience</h6>
                 <div  *ngFor="let proyectname of getProyects(exps)" >
                     <app-card-proyect class="ToneCards" (mouseenter)="enableBoolshadowEffectcard()" (mouseleave)="DisenableBoolshadowEffectcard()"  [tittle]="exps[proyectname]['title']"  [sumary]="exps[proyectname]['description']" [tagList]="getArrayToProyect(exps[proyectname]['tags'])" [modeCard]="true"
                     [dateActualWork]="exps[proyectname]['dateinfo']"
@@ -41,7 +42,7 @@
             </div>
             <br><br>
             <div>
-                proyectos
+                <h6 class="tittlesTopic"> Proyectos</h6>
                 <div  *ngFor="let proyectname of getProyects(this.projects)" >
                         <app-card-proyect class="ToneCards" (mouseenter)="enableBoolshadowEffectcard()" (mouseleave)="DisenableBoolshadowEffectcard()" [ngClass]="{'ShadowToneCards': BoolshadowEffectcard}" [tittle]="projects[proyectname]['title']"  [sumary]="projects[proyectname]['description']" [tagList]="getArrayToProyect(projects[proyectname]['tags'])" [modeCard]="false" ></app-card-proyect>               
                 </div>
@@ -57,7 +58,8 @@
 
             <br><br>
             <div>
-                desccripcion protafolio
+                <!-- desccripcion protafolio -->
+
             </div>
 
         </div>

@@ -43,6 +43,10 @@ body {
     font-family: 'Inter'; 
     src: url('../src/assets/fonts/Inter/Inner-12/Desktop/Inter-Light.ttf ');   
   }
+  @font-face {
+    font-family: 'Inter_Bold'; 
+    src: url('../src/assets/fonts/Inter/Inner-12/Desktop/Inter-Bold.ttf ');   
+  }
   body{
     font-family: 'Poppins_light', sans-serif;
   }

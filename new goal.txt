@@ -66,23 +66,29 @@ Version Desktop
 			 + eleminar metodo de la card y poner input <-o
 			 	
 
-		+ datils component <=====
+		+ datils component <=x
 
 			* Eliminar table create with ←x		
 			+ ajustar tabla ← x
 			+ Create <<service>> define the wight px <-o
 				+ compartir metodo desde el Index  <-o
 
-		+ retoques finales
-			+ Poner la animacion de flecha correcta
-			+ Error version movil tamaño card 
-			+ fuentes 
-			+ tamaños de letras
-			+ revision 
-			+ Quitar efectos hover de la card
-			+ ajustar cards
+		+ retoques finales <=x
+			+ Poner la animacion de flecha correcta< -z
+			+ Error version movil tamaño card  <-x
+			+ fuentes  <-x
+			+ tamaños de letras <-x 
+			+ revision <-x
+			+ Quitar efectos hover de la card <-x
+			+ ajustar cards <-x
+
+		+ ajustar Version movil
+			+ revisar detalles 
+			+ quitars Styles innecesarios
+			+ ajustar el tamaños de las imagenes
 		
 		+informacionm
 			+ llenar 
+			+ poner el Json para 
 
 
