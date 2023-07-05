@@ -1,6 +1,8 @@
 import { Component, HostListener , OnInit , ViewEncapsulation } from '@angular/core';
 import { CardProyectComponent } from '../card-proyect/card-proyect.component';
 import { DataService } from '../../service/data.service';
+import * as data from '../../assets/data/data.json';
+
 
 
 @Component({
@@ -25,6 +27,9 @@ export class IndexComponent {
   posX: Number = 0;
   posY: Number = 0;
 
+
+  constructor(private dataService: DataService) { }
+
 //screen wight
   screenWidth: number = 0;
   screenwidthTrigger: boolean= false;
@@ -35,6 +40,8 @@ export class IndexComponent {
 
   // viewproyect
  boolEnableIndexToDetails: boolean = false;
+
+
 
   enableHoverIndexToDetails()
   {
@@ -48,6 +55,41 @@ this.boolEnableIndexToDetails = true;
   }
   
   // 
+
+  
+ //select lenguis
+  //exp
+
+
+  // info proyects
+  projects: any  = {}
+  pageInfo: any  = {}
+  exps: any  = {}
+
+ lenguage:boolean = false
+
+ lenguageEsp()
+ {
+  this.dataService.setLanguage(false);
+  this.lenguage = this.dataService.getLanguage() ;
+  this.projects = this.getArrayToProyect(data)[0].Proyects;
+  this.pageInfo = this.getArrayToProyect(data)[0].page;
+  this.exps = this.getArrayToProyect(data)[0].exps;
+  console.log(this.pageInfo);
+
+ }
+ lenguageEng()
+ {
+  this.dataService.setLanguage(true);
+  this.lenguage = this.dataService.getLanguage() ;
+  this.projects = this.getArrayToProyect(data)[1].Proyects;
+  this.pageInfo = this.getArrayToProyect(data)[1].page;
+  this.exps = this.getArrayToProyect(data)[1].exps;
+  console.log(this.pageInfo);
+ }
+
+
+//  
 
   enableBoolshadowEffectcard()
   {
@@ -146,7 +188,6 @@ this.boolEnableIndexToDetails = true;
     this.mostrarAnimacion3 = false;
   }
 
-
   ngOnInit(): void {
 
     //inicializamos el selector
@@ -155,9 +196,14 @@ this.boolEnableIndexToDetails = true;
     // this.dataService.setScreenSize();
     // this.screenwidthTrigger = this.dataService.getScreenSize();
     // console.log(this.dataService.getScreenSize());
-    
+    console.log(this.getArrayToProyect(data));
+    if(this.dataService.getLanguage() == false){
+      this.lenguageEsp();
+    }
+    else
+    this.lenguageEng();
   }
-
+  
   // selector index
   @HostListener('window:scroll', ['$event'])
   onWindowScroll() {
@@ -194,57 +240,15 @@ this.boolEnableIndexToDetails = true;
 
   }
 
-  //exp
-  exps: any  = {
-    proyecto1: {
-      title: "a",
-      description: "asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aun aksjkajksnankjsnajk nan an naknajn jak jajbab absjnian ijabjbabhas ja",
-      tags: {a: "css",
-             b: "react",
-             c: "javascript"},
-        dateinfo:"2022 -PRESENT"
-            }
-              };
-
-  // info proyects
-
-  projects: any  = {
-    proyecto1: {
-      title: "a",
-      description: "asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aun aksjkajksnankjsnajk nan an naknajn jak jajbab absjnian ijabjbabhas ja",
-      tags: {
-        a: "css",
-        b: "react",
-        c: "javascript"
-      },
 
 
-    },
-    proyecto2: {
-      title: "b",
-      description:"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aunjn na aljl jajkaj lkaj lja klaj kljak ljlajlajslajiaisojian ijabjbabhas ja",
-      tags: {
-        a: "css",
-        b: "react",
-        c: "javascript"
-      }
-    },
-    proyecto3: {
-      title: "c",
-      description:"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj ksjkalwsnjnian ijabjbabhas ja",
-      tags: {
-        a: "css",
-        b: "react",
-        c: "javascript"
-      }
-    },
-  };
+
 
   getProyects(obj: object): string[] {
     return Object.keys(obj);
   }
 
-  getArrayToProyect(obj: object ): string[] {
+  getArrayToProyect(obj: object ):  any {
     return Object.values(obj);
   }
 

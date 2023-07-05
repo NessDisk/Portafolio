@@ -1,0 +1,93 @@
+{
+  "es":{"page":{
+          "work":"Desarrollador Fullstack",
+           "personalMensage":"Busco la creacion de productos digitales para web.",
+           "pointer1":"SOBRE MI",
+           "pointer2":"EXPERIENCIA",
+           "pointer3":"PROYECTOS",
+           "AboutMeText":"Profesor de tecnología, Indi Dev game y Full Stack Web Developer, con conocimiento <br>  en <b>JavaScript</b>, <b>HTML</b>,  <b>CSS</b>,   <b>Git</b>,  <b>GitHub</b >, <b>React</b>, <b>React-hooks</b>, <b>NodeJS</b> <br> , <b>JS</b> , <b>GraphQL</b> , <b>SCRUM</b> , <b>Firebase</b> , <b>C#</b> , <b> Unity</b> , <b>Mysqul</b><br>  <br>              Profesional con gran apertura a nuevos aprendizajes, proactivo, motivado, innovador, orientado<br>      a resultados, motivación por el logro y trabajo en equipo con capacidad para integrar grupos<br>              profesionales multidisciplinarios en busca de una meta común.<br> <br>            Con destacadas habilidades de comunicación efectiva, de rápida adaptación a diferentes tareas<br>       laborales y una clara disposición al cumplimiento de tareas.",
+           "goToDetails":"Todos los proyectos"
+
+  }, 
+  "exps":{"proyecto1": {
+    "title": "a",
+    "description": "asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aun aksjkajksnankjsnajk nan an naknajn jak jajbab absjnian ijabjbabhas ja",
+    "tags": {"a": "css",
+           "b": "react",
+           "c": "javascript"},
+      "dateinfo":"2022 -PRESENT"
+          }
+              },
+    "Proyects":{"proyecto1": {
+    "title": "a",
+    "description": "asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aun aksjkajksnankjsnajk nan an naknajn jak jajbab absjnian ijabjbabhas ja",
+    "tags": {
+      "a": "css",
+      "b": "react",
+      "c": "javascript"
+    }
+
+
+  },
+  "proyecto2": {
+  "title": "b",
+    "description":"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aunjn na aljl jajkaj lkaj lja klaj kljak ljlajlajslajiaisojian ijabjbabhas ja",
+    "tags": {
+      "a": "css",
+      "b": "react",
+      "c": "javascript"
+    }
+  },
+  "proyecto3": {
+    "title": "c",
+    "description":"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj ksjkalwsnjnian ijabjbabhas ja",
+    "tags": {
+      "a": "css",
+      "b": "react",
+      "c": "javascript"
+    }
+  }}
+
+},
+  "eng":{"page":{
+    "work":"e",
+     "personalMensage":"e",
+     "pointer1":"e",
+     "pointer2":"e",
+     "pointer3":"e",
+     "AboutMeText":"e",
+     "goToDetails":"e"
+
+}, 
+"Proyects":{"proyecto1": {
+"title": "a",
+"description": "asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aun aksjkajksnankjsnajk nan an naknajn jak jajbab absjnian ijabjbabhas ja",
+"tags": {
+"a": "css",
+"b": "react",
+"c": "javascript"
+}
+
+
+},
+"proyecto2": {
+"title": "b",
+"description":"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aunjn na aljl jajkaj lkaj lja klaj kljak ljlajlajslajiaisojian ijabjbabhas ja",
+"tags": {
+"a": "css",
+"b": "react",
+"c": "javascript"
+}
+},
+"proyecto3": {
+"title": "c",
+"description":"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj ksjkalwsnjnian ijabjbabhas ja",
+"tags": {
+"a": "css",
+"b": "react",
+"c": "javascript"
+}
+}}
+
+}
+}

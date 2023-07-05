@@ -308,3 +308,17 @@ b:hover{
   left: 20px;  
 
 }
+
+/* lenguage  */
+
+.lenguageStyle{
+  font-family:  'Inter_Bold', sans-serif; 
+  margin-top: 50px;
+  cursor: pointer;
+  opacity: 50%;
+  margin-left: 10px;
+}
+
+.lenguageStyle:hover{
+  opacity: 100%;
+}

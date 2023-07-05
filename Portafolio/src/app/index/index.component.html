@@ -6,14 +6,14 @@
             
             <h2 class="tittle_name">Nestor J Solera</h2>
             
-            <h4 class=" title_charge"> Desarrollador  Fullstack web</h4>
-            <h4 class="tittle_personal" > mensaje personal</h4>
+            <h4 class=" title_charge"> {{pageInfo.work}}</h4>
+            <h4 class="tittle_personal" > {{pageInfo.personalMensage}}</h4>
 
          <div *ngIf="screenwidthTrigger == true ">       
  
-                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(1)" (mouseleave)="desactivarAnimacion()" (click)="scrollToPoint(1)"> <p class="animation"  [ngClass]="{'animacion-activa-1': mostrarAnimacion1}" ></p>  <p  class="pointerScrean" [ngClass]="{'font-poiner-1': mostrarAnimacion1}"   >ABOUT ME</p></div> 
-                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(2)" (mouseleave)="desactivarAnimacion()" (click)="scrollToPoint(2)">  <p class="animation"  [ngClass]="{'animacion-activa-2': mostrarAnimacion2}" ></p>  <p  class="pointerScrean" [ngClass]="{'font-poiner-2': mostrarAnimacion2}" >EXPERIENCE</p></div>
-                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(3)" (mouseleave)="desactivarAnimacion()" (click)="scrollToPoint(3)"> <p class="animation"  [ngClass]="{'animacion-activa-3': mostrarAnimacion3}" ></p>  <p  class="pointerScrean" [ngClass]="{'font-poiner-3': mostrarAnimacion3}" >PROYECTS</p></div>
+                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(1)" (mouseleave)="desactivarAnimacion()" (click)="scrollToPoint(1)"> <p class="animation"  [ngClass]="{'animacion-activa-1': mostrarAnimacion1}" ></p>  <p  class="pointerScrean" [ngClass]="{'font-poiner-1': mostrarAnimacion1}"   >{{pageInfo.pointer1}}</p></div> 
+                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(2)" (mouseleave)="desactivarAnimacion()" (click)="scrollToPoint(2)">  <p class="animation"  [ngClass]="{'animacion-activa-2': mostrarAnimacion2}" ></p>  <p  class="pointerScrean" [ngClass]="{'font-poiner-2': mostrarAnimacion2}" > {{pageInfo.pointer2}}</p></div>
+                <div class="IndexSceamPosition" (mouseenter)="activarAnimacionMouseEnter(3)" (mouseleave)="desactivarAnimacion()" (click)="scrollToPoint(3)"> <p class="animation"  [ngClass]="{'animacion-activa-3': mostrarAnimacion3}" ></p>  <p  class="pointerScrean" [ngClass]="{'font-poiner-3': mostrarAnimacion3}" >  {{pageInfo.pointer3}}</p></div>
         </div>   
 
             <div class="icons-panel"> 
@@ -22,18 +22,19 @@
             <a href="">  <img class="icon-img" src="assets\img\icons\grey\youtube.png" ></a> 
             <a href="">  <img class="icon-img" src="assets\img\icons\grey\itch.png" ></a> 
             </div>
-         
+            <div class="lenguageStyle" (click)="lenguageEng()"  *ngIf="lenguage == false ; else Engblock" >
+                ESP
+            </div>
+            <ng-template #Engblock > <div class="lenguageStyle" (click)="lenguageEsp()">ENG</div> </ng-template>
         </div>
         <div class="card"> 
-                <h6 class="tittlesTopic"> AboutMe</h6>
-                <p class="aboutMe">
-                    Uno de mis sueños <b> repetitivos es la capacidad</b> de volar. No como un halcón, ni como un avión, sino más bien como yo mismo, tal cual como Peter Pan. <br/> <br/>
-
-                     Sin aprovechar las fuerzas de la naturaleza y sin herramientas. <b> Únicamente de un impulso desde </b> el mismo suelo alzar el vuelo, sin alejarme mucho del mismo, pero lo suficiente como para volar por <b> debajo de los techos </b> de interiores y por encima de tejados de exteriores.
+                <h6 class="tittlesTopic"> {{pageInfo.pointer1}}</h6>
+                <p class="aboutMe" [innerHTML]="pageInfo.AboutMeText"> 
+                   
                 </p>
             <br> <br>
             <div>
-                <h6 class="tittlesTopic"> Experience</h6>
+                <h6 class="tittlesTopic"> {{pageInfo.pointer2}}</h6>
                 <div  *ngFor="let proyectname of getProyects(exps)" >
                     <app-card-proyect class="ToneCards" (mouseenter)="enableBoolshadowEffectcard()" (mouseleave)="DisenableBoolshadowEffectcard()"  [tittle]="exps[proyectname]['title']"  [sumary]="exps[proyectname]['description']" [tagList]="getArrayToProyect(exps[proyectname]['tags'])" [modeCard]="true"
                     [dateActualWork]="exps[proyectname]['dateinfo']"
@@ -42,7 +43,7 @@
             </div>
             <br><br><br><br>
             <div>
-                <h6 class="tittlesTopic"> Proyectos</h6>
+                <h6 class="tittlesTopic"> {{pageInfo.pointer3}}</h6>
                 <div  *ngFor="let proyectname of getProyects(this.projects)" >
                         <app-card-proyect class="ToneCards" (mouseenter)="enableBoolshadowEffectcard()" (mouseleave)="DisenableBoolshadowEffectcard()" [ngClass]="{'ShadowToneCards': BoolshadowEffectcard}" [tittle]="projects[proyectname]['title']"  [sumary]="projects[proyectname]['description']" [tagList]="getArrayToProyect(projects[proyectname]['tags'])" [modeCard]="false" ></app-card-proyect>               
                 </div>
@@ -51,7 +52,7 @@
             <div>
                <!-- <a routerLink="/details" > Ver proyectos</a>  -->
                <a (mouseenter)="enableHoverIndexToDetails()"  (mouseleave)="disenableHoverIndexToDetails()" routerLink="/details" class=" index_VeiwPoroyects "  >      
-                  <div [ngClass]="{index_viewDetailsText: boolEnableIndexToDetails}">Ver todos los proyectos </div> 
+                  <div [ngClass]="{index_viewDetailsText: boolEnableIndexToDetails}">{{pageInfo.goToDetails}} </div> 
                 <div class="index_ArrowAnimation" [ngClass]="{index_MoveArrowAnimation: boolEnableIndexToDetails}" >→</div>
               </a >
             </div>

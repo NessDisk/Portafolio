@@ -1,4 +1,6 @@
 import { Component  , ViewEncapsulation, HostListener, OnInit  } from '@angular/core';
+import { DataService } from '../../service/data.service';
+import * as proyects from '../../assets/data/proyects.json';
 
 @Component({
   selector: 'app-details',
@@ -16,7 +18,17 @@ export class DetailsComponent {
 
   animationTittle: boolean = false;
 
+  lenguage: string = "";
+
   
+  constructor(private dataService: DataService) { 
+    
+  if(this.dataService.getLanguage() == false )   
+  this.lenguage = "esp"
+  else
+  this.lenguage = "eng"
+     console.log(this.lenguage );
+  }
 
   moverElemento(event: MouseEvent) {
     this.posX = event.clientX;
@@ -37,6 +49,25 @@ disenableHoverDetailsComeback()
 
 }
 
+
+info: any  = {
+  "esp":{
+    "tittle": "proyectos",
+    "year":"Año",
+    "proyect": "proyectos",
+    "CreateWiht": "Creado con",
+    "link":"Link"
+
+  },
+  "eng":{
+    "tittle": "Proyects",
+    "year":"year",
+    "proyect": "proyect",
+    "CreateWiht": "Create with",
+    "link":"Link"
+
+  }
+}
 
   projects: any  = {
     proyecto1: {

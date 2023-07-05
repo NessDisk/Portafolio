@@ -13,15 +13,15 @@
             </a >
 
             <h1 class="tittleDetails">
-               Proyectos
+               {{info[lenguage]["tittle"]}}
             </h1>
             <div>
                 <table  *ngIf=" movilVersion == false ; else elseBlock"  >
                     <tr class="encabezado">
-                      <th  class="date-Style" >Año</th>
-                      <th>Project</th>
-                      <th class="create-col-Style">Creado con</th>
-                      <th>Link</th>
+                      <th  class="date-Style" >   {{info[lenguage]["year"]}}</th>
+                      <th> {{info[lenguage]["proyect"]}}</th>
+                      <th class="create-col-Style">{{info[lenguage]["CreateWiht"]}}</th>
+                      <th>{{info[lenguage]["link"]}}</th>
                     </tr>
                     <tr *ngFor="let proyectname of getProyects()">
                       <td class="col-style"  >{{projects[proyectname]['año']}}</td>
@@ -43,9 +43,9 @@
                   <ng-template  #elseBlock >  
                     <table >
                     <tr class="encabezado">
-                      <th class="date-Style" >Año</th>
-                      <th>Project</th>                      
-                      <th>Link</th>
+                      <th class="date-Style" >{{info[lenguage]["year"]}}</th>
+                      <th>{{info[lenguage]["proyect"]}}</th>                      
+                      <th>{{info[lenguage]["link"]}}</th>
                     </tr>
                     <tr *ngFor="let proyectname of getProyects()">
                       <td class="col-style"  >{{projects[proyectname]['año']}}</td>

@@ -6,16 +6,20 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class DataService {
   private myVariable= new BehaviorSubject<string>('es');
+  private Lenguaje: boolean = false;
 
   setVariable(value: string): void {
     this.myVariable.next(value);
   }
 
   getVariable() {
-    return this.myVariable.asObservable();
-
-    
+    return this.myVariable.asObservable();   
   }
 
-
+  setLanguage(value: boolean): void {
+    this.Lenguaje = value;
+  }
+  getLanguage() {
+    return this.Lenguaje;
+  }
 }

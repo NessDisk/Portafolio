@@ -82,14 +82,15 @@ Version Desktop
 			+ Quitar efectos hover de la card <-x
 			+ ajustar cards <-x
 
-		+ ajustar Version movil
-			+ revisar detalles 
-			+ quitars Styles innecesarios
-			+ ajustar el tamaños de las imagenes
-			+ Ajustar resolucion responsive.
+		+ ajustar Version movil<-x 
+			+ revisar detalles <-x 
+			+ quitars Styles innecesarios<-x 
+			+ ajustar el tamaños de las imagenes <-x 
+			+ Ajustar resolucion responsive. <-x 
 		
+		+Detalles 
 		+informacionm
 			+ llenar 
-			+ poner el Json para 
+			+ poner el Json para <-
 
 
