@@ -75,7 +75,7 @@ this.boolEnableIndexToDetails = true;
   this.projects = this.getArrayToProyect(data)[0].Proyects;
   this.pageInfo = this.getArrayToProyect(data)[0].page;
   this.exps = this.getArrayToProyect(data)[0].exps;
-  console.log(this.pageInfo);
+  console.log(this.projects);
 
  }
  lenguageEng()
@@ -85,7 +85,7 @@ this.boolEnableIndexToDetails = true;
   this.projects = this.getArrayToProyect(data)[1].Proyects;
   this.pageInfo = this.getArrayToProyect(data)[1].page;
   this.exps = this.getArrayToProyect(data)[1].exps;
-  console.log(this.pageInfo);
+  console.log(this.projects);
  }
 
 
@@ -130,7 +130,7 @@ this.boolEnableIndexToDetails = true;
 
    else{      
       window.scrollTo({
-        top: 1000,
+        top: 800,
         behavior: 'smooth'
       });
     }
@@ -196,7 +196,7 @@ this.boolEnableIndexToDetails = true;
     // this.dataService.setScreenSize();
     // this.screenwidthTrigger = this.dataService.getScreenSize();
     // console.log(this.dataService.getScreenSize());
-    console.log(this.getArrayToProyect(data));
+    // console.log(this.getArrayToProyect(data));
     if(this.dataService.getLanguage() == false){
       this.lenguageEsp();
     }
@@ -212,7 +212,7 @@ this.boolEnableIndexToDetails = true;
 
     if(scrollTop >= 0 &&  scrollTop <= 499)
     this.isSelectec = 1;
-    else if(scrollTop >= 500 &&  scrollTop <= 999)
+    else if(scrollTop >= 500 &&  scrollTop <= 799)
     this.isSelectec = 2;
     else 
     this.isSelectec = 3;

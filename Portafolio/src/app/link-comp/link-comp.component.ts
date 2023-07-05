@@ -8,6 +8,7 @@ import { Component, Input  } from '@angular/core';
 export class LinkCompComponent {
 
   @Input() linkText: string ="http://localhost:4200/";
+  @Input() TextTittle: string ="http://localhost:4200/";
 
   Movearrow: boolean =false;
 

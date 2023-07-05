@@ -1,7 +1,7 @@
 <div class="continaer">
-   <div class="cardProyect" (mouseenter)="enableHoverInfoCard_tittle()" (mouseleave)="disenableHoverInfoCard_tittle()" [ngClass]="{'cardProyect-imgMode':screenwidthTrigger}" >
+   <a href="{{urlLink}}" class="cardProyect" (mouseenter)="enableHoverInfoCard_tittle()" (mouseleave)="disenableHoverInfoCard_tittle()" [ngClass]="{'cardProyect-imgMode':screenwidthTrigger}" >
    <div class="date_Tittle">
-      <img class="imgProyect" *ngIf="modeCard == false ; else elseBlock"  src="assets\img\e-comerce.PNG" alt=""   [ngClass]="{'imgProyect-hover': BoolHoverInfoCard_Tittle}" >
+      <img class="imgProyect" *ngIf="modeCard == false ; else elseBlock"  src="{{imgLink}}" alt=""   [ngClass]="{'imgProyect-hover': BoolHoverInfoCard_Tittle}" >
       <ng-template class="date-info"   #elseBlock > {{dateActualWork}} </ng-template>
       <br>
    </div>
@@ -17,5 +17,5 @@
          </div>
       </div>
    </div>
-</div>
+</a>
 </div>

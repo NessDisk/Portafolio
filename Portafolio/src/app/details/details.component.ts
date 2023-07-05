@@ -23,11 +23,13 @@ export class DetailsComponent {
   
   constructor(private dataService: DataService) { 
     
+
+    this.projects = this.dataService.getArrayToProyect(proyects).pop();
   if(this.dataService.getLanguage() == false )   
   this.lenguage = "esp"
   else
   this.lenguage = "eng"
-     console.log(this.lenguage );
+     console.log( this.projects );
   }
 
   moverElemento(event: MouseEvent) {
@@ -70,45 +72,7 @@ info: any  = {
 }
 
   projects: any  = {
-    proyecto1: {
-      año: "2000",
-      name: "proyect 1",
-      tags: {
-        a: "css",
-        b: "react",
-        c: "javascript"
-      },
-      link:"testLink",
-    },
-    proyecto2: {
-      año: "2000",
-      name:"proyect 2",
-      tags: {
-        a: "css",
-        b: "react",
-        c: "javascript"
-      },
-      link:"testLink",
-    },
-    proyecto3: {
-      año: "2000",
-      name:"proyect 3",
-      tags: {
-        a: "css",
-        b: "react",
-        c: "javascript",
-        // d: "css",
-        // e: "react",
-        // f: "javascript",
-        // g: "css",
-        // h: "react",
-        // i: "javascript",
-        // n: "css",
-        // l: "react",
-        // m: "javascript"
-      },
-      link:"testLink",
-    },
+  
   };
 
   getProyects(): string[] {

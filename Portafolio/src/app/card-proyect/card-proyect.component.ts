@@ -14,7 +14,9 @@ export class CardProyectComponent {
 
   @Input()  dateActualWork: string ="Present - xxxx";
   
-
+  @Input() urlLink: string ="https://www.youtube.com/";
+    
+  @Input() imgLink: string ="";
 
 
   @Input() modeCard: boolean = false;

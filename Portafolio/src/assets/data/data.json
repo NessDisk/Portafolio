@@ -1,7 +1,7 @@
 {
   "es":{"page":{
           "work":"Desarrollador Fullstack",
-           "personalMensage":"Busco la creacion de productos digitales para web.",
+           "personalMensage":"Creo experiencias web de facil uso, enfantisando la <br> visaulizacion y acceso del cliente",
            "pointer1":"SOBRE MI",
            "pointer2":"EXPERIENCIA",
            "pointer3":"PROYECTOS",
@@ -10,83 +10,132 @@
 
   }, 
   "exps":{"proyecto1": {
-    "title": "a",
-    "description": "asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aun aksjkajksnankjsnajk nan an naknajn jak jajbab absjnian ijabjbabhas ja",
-    "tags": {"a": "css",
-           "b": "react",
-           "c": "javascript"},
-      "dateinfo":"2022 -PRESENT"
+    "title": " Front-end - Docia",
+    "description": "Desarrolle y  stylos pantalla para microservicios para Docia, Coopere en las implementaciones de auth Usuario y en el los stylos del sign up. Colabore en el despliegue de metadata dinamica.",
+    "tags": {"a": "sass",
+             "b": "react",
+             "c": "javascript",
+             "d": "Bootstrap" 
+        },
+      "dateinfo":"2022 -PRESENT",
+      "urlText":"https://www.doc-ia.com/"
           }
               },
     "Proyects":{"proyecto1": {
-    "title": "a",
-    "description": "asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aun aksjkajksnankjsnajk nan an naknajn jak jajbab absjnian ijabjbabhas ja",
+    "title": "E-comerce",
+    "description": "Colabore como parte de un proyecto final, en el Login del proyecto en Front-end y en el Back-end asisti en la autehnticación y resgisro. Realice los estilos y la vista. También cree una parte importante del perfil del usuario. Trabaje en la vista de los detalles del producto y las reviewer de producto.",
     "tags": {
-      "a": "css",
-      "b": "react",
-      "c": "javascript"
-    }
-
+      "1": "JavaScript",
+      "2": "Node.js",
+      "3": "Postgress",
+      "4": "Sql",
+      "5": "css",
+      "6": "html",
+      "7": "Bootstrack",
+      "8": "react"
+    },
+      "urlText":"https://pg-henry-grupo6.vercel.app/",
+      "imgUrl":"assets/img/e-comerce.PNG"
 
   },
   "proyecto2": {
-  "title": "b",
-    "description":"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aunjn na aljl jajkaj lkaj lja klaj kljak ljlajlajslajiaisojian ijabjbabhas ja",
+  "title": "whats-app-c",
+    "description":"Implemente un clon de la app whatzapp, con su authenticacion y un chat global.",
     "tags": {
-      "a": "css",
-      "b": "react",
-      "c": "javascript"
-    }
+      "1": "Javascript",
+      "2": "Node.js",
+      "3": "Postgress",
+      "4": "Firebase",
+      "5": "html",
+      "6": "react"
+    },
+    "urlText":"https://whats-app-clone-cyan.vercel.app/rooms/-N2Ea_h6CAnt37pz6HwT",
+    "imgUrl":"assets/img/whatzapp-web-2.PNG"
   },
   "proyecto3": {
-    "title": "c",
-    "description":"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj ksjkalwsnjnian ijabjbabhas ja",
+    "title": "Banca-sp",
+    "description":" Mini banco que implementa las funciona de resgisro de productos para los clientes. Implemente los stylos usando Bootstrap, tambien ejecuta transaciones con los cobros desde la DB. ",
     "tags": {
-      "a": "css",
-      "b": "react",
-      "c": "javascript"
-    }
+      "1": "TypeScript",
+      "2": "Node.js",
+      "3": "Postgress",
+      "4": "Firebase",
+      "5": "html",
+      "6": "angular",
+      "7": "SpringBoot"
+    },
+    "urlText":"https://github.com/NessDisk/Banca-Sp",
+    "imgUrl":"assets/img/Banca-sp.PNG"
   }}
 
 },
-  "eng":{"page":{
-    "work":"e",
-     "personalMensage":"e",
-     "pointer1":"e",
-     "pointer2":"e",
-     "pointer3":"e",
-     "AboutMeText":"e",
-     "goToDetails":"e"
+"eng":{"page":{
+  "work":"Desarrollador Fullstack -2",
+   "personalMensage":"Busco la creacion de productos digitales para web. -2",
+   "pointer1":"SOBRE MI -2",
+   "pointer2":"EXPERIENCIA -2",
+   "pointer3":"PROYECTOS -2",
+   "AboutMeText":"Profesor de tecnología, Indi Dev game y Full Stack Web Developer, con conocimiento <br>  en <b>JavaScript</b>, <b>HTML</b>,  <b>CSS</b>,   <b>Git</b>,  <b>GitHub</b >, <b>React</b>, <b>React-hooks</b>, <b>NodeJS</b> <br> , <b>JS</b> , <b>GraphQL</b> , <b>SCRUM</b> , <b>Firebase</b> , <b>C#</b> , <b> Unity</b> , <b>Mysqul</b><br>  <br>              Profesional con gran apertura a nuevos aprendizajes, proactivo, motivado, innovador, orientado<br>      a resultados, motivación por el logro y trabajo en equipo con capacidad para integrar grupos<br>              profesionales multidisciplinarios en busca de una meta común.<br> <br>            Con destacadas habilidades de comunicación efectiva, de rápida adaptación a diferentes tareas<br>       laborales y una clara disposición al cumplimiento de tareas. -2",
+   "goToDetails":"Todos los proyectos -2"
 
 }, 
+"exps":{"proyecto1": {
+"title": " Front-end - Docia -2",
+"description": "Desarrolle y  stylos pantalla para microservicios para Docia, Coopere en las implementaciones de auth Usuario y en el los stylos del sign up. Colabore en el despliegue de metadata dinamica. -2",
+"tags": {"a": "sass",
+     "b": "react",
+     "c": "javascript",
+     "d": "Bootstrap" 
+},
+"dateinfo":"2022 -PRESENT -2",
+"urlText":"https://www.doc-ia.com/"
+  }
+      },
 "Proyects":{"proyecto1": {
-"title": "a",
-"description": "asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aun aksjkajksnankjsnajk nan an naknajn jak jajbab absjnian ijabjbabhas ja",
+"title": "E-comerce -2",
+"description": "Colabore como parte de un proyecto final, en el Login del proyecto en Front-end y en el Back-end asisti en la autehnticación y resgisro. Realice los estilos y la vista. También cree una parte importante del perfil del usuario. Trabaje en la vista de los detalles del producto y las reviewer de producto. -2",
 "tags": {
-"a": "css",
-"b": "react",
-"c": "javascript"
-}
-
+"1": "JavaScript",
+"2": "Node.js",
+"3": "Postgress",
+"4": "Sql",
+"5": "css",
+"6": "html",
+"7": "Bootstrack",
+"8": "react"
+},
+"urlText":"https://pg-henry-grupo6.vercel.app/",
+"imgUrl":"assets/img/e-comerce.PNG"
 
 },
 "proyecto2": {
-"title": "b",
-"description":"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj bakjb jkbabijaj niaj nai aunjn na aljl jajkaj lkaj lja klaj kljak ljlajlajslajiaisojian ijabjbabhas ja",
+"title": "whats-app-c -2",
+"description":"Implemente un clon de la app whatzapp, con su authenticacion y un chat global. -2",
 "tags": {
-"a": "css",
-"b": "react",
-"c": "javascript"
-}
+"1": "Javascript",
+"2": "Node.js",
+"3": "Postgress",
+"4": "Firebase",
+"5": "html",
+"6": "react"
+},
+"urlText":"https://whats-app-clone-cyan.vercel.app/rooms/-N2Ea_h6CAnt37pz6HwT",
+"imgUrl":"assets/img/whatzapp-web-2.PNG"
 },
 "proyecto3": {
-"title": "c",
-"description":"asdg casdca n kja ka jan anj aj sb ab bajb jakb bakj ksjkalwsnjnian ijabjbabhas ja",
+"title": "Banca-sp -2",
+"description":" Mini banco que implementa las funciona de resgisro de productos para los clientes. Implemente los stylos usando Bootstrap, tambien ejecuta transaciones con los cobros desde la DB. ",
 "tags": {
-"a": "css",
-"b": "react",
-"c": "javascript"
-}
+"1": "TypeScript",
+"2": "Node.js",
+"3": "Postgress",
+"4": "Firebase",
+"5": "html",
+"6": "angular",
+"7": "SpringBoot"
+},
+"urlText":"https://github.com/NessDisk/Banca-Sp",
+"imgUrl":"assets/img/Banca-sp.PNG"
 }}
 
 }

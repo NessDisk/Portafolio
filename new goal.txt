@@ -90,7 +90,11 @@ Version Desktop
 		
 		+Detalles 
 		+informacionm
-			+ llenar 
-			+ poner el Json para <-
+			+ linker las cards
+			+ llenar <-
+				+ Esp
+				+ Eng
+			+ poner el Json para <- x
+			+ Json deatils implementar <-x
 
 

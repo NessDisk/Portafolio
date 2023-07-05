@@ -25,7 +25,7 @@
                     </tr>
                     <tr *ngFor="let proyectname of getProyects()">
                       <td class="col-style"  >{{projects[proyectname]['año']}}</td>
-                      <td>{{projects[proyectname]['name']}} </td>
+                      <td class="col-name-style">{{projects[proyectname]['name']}} </td>
                       <td class="create-col-Style">
                             <div class="InfoCard_tag">
                               <div   *ngFor="let tagname of getArrayToProyect(projects[proyectname]['tags'])" >
@@ -34,7 +34,7 @@
                           </div>
                        </td>
                       <!-- <td><a class="linkStyleTable" () href="projects[proyectname]['link']" > {{projects[proyectname]['link']}}  <div>→</div> </a></td> -->
-                      <td> <app-link-comp></app-link-comp> </td>
+                      <td> <app-link-comp [linkText]="projects[proyectname]['link']" [TextTittle]="projects[proyectname]['tittleName']"></app-link-comp> </td>
                        
                     </tr>                
                   </table>
@@ -44,7 +44,7 @@
                     <table >
                     <tr class="encabezado">
                       <th class="date-Style" >{{info[lenguage]["year"]}}</th>
-                      <th>{{info[lenguage]["proyect"]}}</th>                      
+                      <th class="col-name-style">{{info[lenguage]["proyect"]}}</th>                      
                       <th>{{info[lenguage]["link"]}}</th>
                     </tr>
                     <tr *ngFor="let proyectname of getProyects()">
@@ -52,7 +52,7 @@
                       <td>{{projects[proyectname]['name']}} </td>
                       
                       <!-- <td><a class="linkStyleTable" () href="projects[proyectname]['link']" > {{projects[proyectname]['link']}}  <div>→</div> </a></td> -->
-                      <td> <app-link-comp></app-link-comp> </td>
+                      <td> <app-link-comp [linkText]="projects[proyectname]['link']" [TextTittle]="projects[proyectname]['tittleName']" ></app-link-comp> </td>
                        
                     </tr>                
                   </table> </ng-template>

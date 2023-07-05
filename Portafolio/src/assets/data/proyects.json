@@ -1,12 +1,124 @@
-{
-    "proyects1":{
-        "year":2000,
-        "name":"name",
+{"proyects1":{
+        "año":2022,
+        "name":"Countries app",
         "tags":{
-            "a":"css",
-            "b":"html"
+            "1":"Javascript",           
+            "2":"Postgress",
+            "3":"html",
+            "4":"css",
+            "5":"react"
         },
-        "link": "link"
+        "link": "https://github.com/NessDisk/PI-Countries-main",
+        "tittleName":"github"
+
+    },
+    "proyects2":{
+        "año":2021,
+        "name":"E-comerce",
+        "tags":{
+            "1":"Javascript",          
+            "2":"Postgress",
+            "3":"css ",
+            "4":"Bootstrack"
+        },
+        "link": "https://pg-henry-grupo6.vercel.app/",
+        "tittleName":"E-comerce-pg"
+
+    },
+    "proyects3":{
+        "año":2022,
+        "name":"Whatzapp-c",
+        "tags":{
+            "1":"Javascript",
+            "2":"Node",
+            "3":"css",
+            "4":"Firebase"
+        },
+        "link": "https://whats-app-clone-cyan.vercel.app/rooms/-N2Ea_h6CAnt37pz6HwT",
+        "tittleName":"whats-app-clone-cyan."
+
+    },
+    "proyects4":{
+        "año":2022,
+        "name":"Google-c",
+        "tags":{
+            "1":"Javascript",
+            "2":"Node",
+            "3":"css",
+            "4":"Firebase"
+        },
+        "link": "https://google-clone-tau-liard.vercel.app/",
+        "tittleName":"google-clone-tau-liard"
+
+    },
+    "proyects5":{
+        "año":2022,
+        "name":"Quiz-app",
+        "tags":{
+            "1":"Javascript",
+            "2":"css",
+            "3":"html"
+        },
+        "link": "https://quizz-app-kappa.vercel.app/",
+        "tittleName":"quizz-app-kappa."
+
+    },
+    "proyects6":{
+        "año":2022,
+        "name":"banca-sp",
+        "tags":{
+            "1":"TypeScript",
+            "2":"Node.js",
+            "3":"MySql",
+            "4":"css",
+            "5":"Bootstrack",
+            "6":"angular"
+        },
+        "link": "https://github.com/NessDisk/Banca-Sp",
+        "tittleName":"github"
+
+    },
+    "proyects7":{
+        "año":2019,
+        "name":"BC-X",
+        "tags":{
+            "1":"Unity",
+            "2":"C#"
+        },
+        "link": "https://wess-ds.itch.io/blue-core-x",
+        "tittleName":"itch.io/blue-core-x"
+
+    },
+    "proyects8":{
+        "año":2019,
+        "name":"Crewild-demo",
+        "tags":{
+            "1":"Unity",
+            "2":"C#"
+        },
+        "link": "https://wess-ds.itch.io/crewild",
+        "tittleName":"itch.io/crewild"
+    },
+    "proyects9":{
+        "año":2021,
+        "name":"R-O",
+        "tags":{
+            "1":"Unity",
+            "2":"C#"
+        },
+        "link": "https://wess-ds.itch.io/red-ocean",
+        "tittleName":"itch.io/red-ocean"
+    },
+    "proyects10":{
+        "año":2020,
+        "name":"D-Do",
+        "tags":{
+            "1":"Unity",
+            "2":"C#"
+        },
+        "link": "https://wess-ds.itch.io/dungeon-dosin",
+        "tittleName":"itch.io/dungeon-dosin"
 
     }
+
 }

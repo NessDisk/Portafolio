@@ -7,7 +7,7 @@
             <h2 class="tittle_name">Nestor J Solera</h2>
             
             <h4 class=" title_charge"> {{pageInfo.work}}</h4>
-            <h4 class="tittle_personal" > {{pageInfo.personalMensage}}</h4>
+            <h4 class="tittle_personal"  [innerHTML]="pageInfo.personalMensage" > </h4>
 
          <div *ngIf="screenwidthTrigger == true ">       
  
@@ -17,10 +17,10 @@
         </div>   
 
             <div class="icons-panel"> 
-            <a href="">   <img class="icon-img" src="assets\img\icons\grey\github.png" ></a> 
-            <a href="">  <img class="icon-img" src="assets\img\icons\grey\linkedin.png" ></a> 
-            <a href="">  <img class="icon-img" src="assets\img\icons\grey\youtube.png" ></a> 
-            <a href="">  <img class="icon-img" src="assets\img\icons\grey\itch.png" ></a> 
+            <a href="https://github.com/NessDisk">   <img class="icon-img" src="assets\img\icons\grey\github.png" ></a> 
+            <a href="https://www.linkedin.com/in/nestor-solera-091a751a9/">  <img class="icon-img" src="assets\img\icons\grey\linkedin.png" ></a> 
+            <a href="https://www.youtube.com/@wessdevdiary321/videos">  <img class="icon-img" src="assets\img\icons\grey\youtube.png" ></a> 
+            <a href="https://itch.io/profile/wess-ds">  <img class="icon-img" src="assets\img\icons\grey\itch.png" ></a> 
             </div>
             <div class="lenguageStyle" (click)="lenguageEng()"  *ngIf="lenguage == false ; else Engblock" >
                 ESP
@@ -37,7 +37,7 @@
                 <h6 class="tittlesTopic"> {{pageInfo.pointer2}}</h6>
                 <div  *ngFor="let proyectname of getProyects(exps)" >
                     <app-card-proyect class="ToneCards" (mouseenter)="enableBoolshadowEffectcard()" (mouseleave)="DisenableBoolshadowEffectcard()"  [tittle]="exps[proyectname]['title']"  [sumary]="exps[proyectname]['description']" [tagList]="getArrayToProyect(exps[proyectname]['tags'])" [modeCard]="true"
-                    [dateActualWork]="exps[proyectname]['dateinfo']"
+                    [dateActualWork]="exps[proyectname]['dateinfo']" [urlLink]="exps[proyectname]['urlText']"
                     ></app-card-proyect>               
                 </div>
             </div>
@@ -45,7 +45,7 @@
             <div>
                 <h6 class="tittlesTopic"> {{pageInfo.pointer3}}</h6>
                 <div  *ngFor="let proyectname of getProyects(this.projects)" >
-                        <app-card-proyect class="ToneCards" (mouseenter)="enableBoolshadowEffectcard()" (mouseleave)="DisenableBoolshadowEffectcard()" [ngClass]="{'ShadowToneCards': BoolshadowEffectcard}" [tittle]="projects[proyectname]['title']"  [sumary]="projects[proyectname]['description']" [tagList]="getArrayToProyect(projects[proyectname]['tags'])" [modeCard]="false" ></app-card-proyect>               
+                        <app-card-proyect class="ToneCards" (mouseenter)="enableBoolshadowEffectcard()" (mouseleave)="DisenableBoolshadowEffectcard()" [ngClass]="{'ShadowToneCards': BoolshadowEffectcard}" [tittle]="projects[proyectname]['title']"  [sumary]="projects[proyectname]['description']" [tagList]="getArrayToProyect(projects[proyectname]['tags'])" [modeCard]="false" [urlLink]="projects[proyectname]['urlText']" [imgLink]="projects[proyectname]['imgUrl']"></app-card-proyect>               
                 </div>
             
             </div>

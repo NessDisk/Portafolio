@@ -100,7 +100,10 @@
     h2{
       margin: 0;
     }
-
+    .col-name-style{
+      font-family:  'Inter_Bold', sans-serif; 
+      color: rgb(206, 215, 237);
+    }
 
     /* animation arrow  come back page Details*/
     .details_ArrowAnimation{

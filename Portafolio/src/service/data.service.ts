@@ -22,4 +22,13 @@ export class DataService {
   getLanguage() {
     return this.Lenguaje;
   }
+
+//  Utilities 
+  getProyects(obj: object): string[] {
+    return Object.keys(obj);
+  }
+
+  getArrayToProyect(obj: object ):  any {
+    return Object.values(obj);
+  }
 }

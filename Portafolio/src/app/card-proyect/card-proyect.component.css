@@ -9,6 +9,7 @@
         transition: background-color  0.3s ease;
         border-radius: 6px 6px 6px 6px;
         margin-bottom: 5px;
+        cursor: pointer;
                 }
 
                 .cardProyect:hover{ 
@@ -66,6 +67,7 @@
         border-radius: 6px 6px 6px 6px;
         margin-bottom: 5px;
         width:  125vw;
+        cursor: pointer;
                 }
 
                 .cardProyect-imgMode{
@@ -105,7 +107,7 @@
                     flex-direction:  column;
                     /* padding-bottom: 15px; */
                     width: 75%;
-                    height: 25%;               
+                    height: 50%;               
                     
                 }
 
