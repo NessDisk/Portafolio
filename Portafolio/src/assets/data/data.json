@@ -23,7 +23,7 @@
               },
     "Proyects":{"proyecto1": {
     "title": "E-comerce",
-    "description": "Collaborate as part of a final project, in the Front-end project login and in the Back-end assist in the authentication and registration. Create the styles and the view. Also, create an important part of the user profile. Work on the product details view and product reviewer.",
+    "description": "Colabore como parte de un proyecto final, en el Login del proyecto en Front-end y en el Back-end asisti en la autehnticación y resgistro. Realice los estilos y la vista. También cree una parte importante del perfil del usuario. Trabaje en la vista de los detalles del producto y las reviewer de producto.",
     "tags": {
       "1": "JavaScript",
       "2": "Node.js",
@@ -80,20 +80,20 @@
 
 }, 
 "exps":{"proyecto1": {
-"title": " Front-end - Docia -2",
+"title": " Front-end - Docia",
 "description": "Develop styles for microservices Docia, cooperate on auth User implementations and sign-up styles. Collaborate in the deployment of dynamic metadata.",
 "tags": {"a": "sass",
      "b": "react",
      "c": "javascript",
      "d": "Bootstrap" 
 },
-"dateinfo":"2022 -PRESENT -2",
+"dateinfo":"2022 -PRESENT",
 "urlText":"https://www.doc-ia.com/"
   }
       },
 "Proyects":{"proyecto1": {
-"title": "E-comerce -2",
-"description": "Colabore como parte de un proyecto final, en el Login del proyecto en Front-end y en el Back-end asisti en la autehnticación y resgisro. Realice los estilos y la vista. También cree una parte importante del perfil del usuario. Trabaje en la vista de los detalles del producto y las reviewer de producto. -2",
+"title": "E-comerce",
+"description": "Collaborate as part of a final project, in the Front-end project login and in the Back-end assist in the authentication and registration. Create the styles and the view. Also, create an important part of the user profile. Work on the product details view and product reviewer.",
 "tags": {
 "1": "JavaScript",
 "2": "Node.js",
@@ -109,7 +109,7 @@
 
 },
 "proyecto2": {
-"title": "whats-app-c -2",
+"title": "whats-app-c",
 "description":"Implement a clone of the WhatsApp app, with its authentication and a global chat.",
 "tags": {
 "1": "Javascript",
@@ -123,7 +123,7 @@
 "imgUrl":"assets/img/whatzapp-web-2.PNG"
 },
 "proyecto3": {
-"title": "Banca-sp -2",
+"title": "Banca-sp",
 "description":" Mini-bank that implements the product resgistro functions for the customers. Implement the styles using Bootstrap, also execute transactions with the collections from the DB. ",
 "tags": {
 "1": "TypeScript",
