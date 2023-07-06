@@ -5,13 +5,13 @@
            "pointer1":"SOBRE MI",
            "pointer2":"EXPERIENCIA",
            "pointer3":"PROYECTOS",
-           "AboutMeText":"Profesor de tecnología, Indi Dev game y Full Stack Web Developer, con conocimiento <br>  en <b>JavaScript</b>, <b>HTML</b>,  <b>CSS</b>,   <b>Git</b>,  <b>GitHub</b >, <b>React</b>, <b>React-hooks</b>, <b>NodeJS</b> <br> , <b>JS</b> , <b>GraphQL</b> , <b>SCRUM</b> , <b>Firebase</b> , <b>C#</b> , <b> Unity</b> , <b>Mysqul</b><br>  <br>              Profesional con gran apertura a nuevos aprendizajes, proactivo, motivado, innovador, orientado<br>      a resultados, motivación por el logro y trabajo en equipo con capacidad para integrar grupos<br>              profesionales multidisciplinarios en busca de una meta común.<br> <br>            Con destacadas habilidades de comunicación efectiva, de rápida adaptación a diferentes tareas<br>       laborales y una clara disposición al cumplimiento de tareas.",
+           "AboutMeText":"En el 2015, comencé  creando temas personalizados con html, estos fueron  mis primeros pasos como desarrollador web. Luego di un salto un salto a otros entornos y volvi al desarrollo web, actualmente he participado en algunos start-up y he hecho algunos cursos como fullstack-web. <br> <br> Busco seguir trabajando seguir mejorando mi experiencia dentro  de otros equipos. En mi tiempo libre participo en game jams  y en desarrollo de juegos para pc. <br><br> Me considero una persona abierta y empatica con los demas, intento generar un buen ambiente y no me gusta discutir.<br><br> Cuando  no estoy en el pc, me dedico al ejercitarme , me encanta el cine clasico y escuchar musica. ",
            "goToDetails":"Todos los proyectos"
 
   }, 
   "exps":{"proyecto1": {
     "title": " Front-end - Docia",
-    "description": "Desarrolle y  stylos pantalla para microservicios para Docia, Coopere en las implementaciones de auth Usuario y en el los stylos del sign up. Colabore en el despliegue de metadata dinamica.",
+    "description": "Desarrolle estilos para los microservicios de Docia, Coopere en las implementaciones de auth Usuario y en el los stylos del sign up. Colabore en el despliegue de metadata dinamica.",
     "tags": {"a": "sass",
              "b": "react",
              "c": "javascript",
@@ -23,7 +23,7 @@
               },
     "Proyects":{"proyecto1": {
     "title": "E-comerce",
-    "description": "Colabore como parte de un proyecto final, en el Login del proyecto en Front-end y en el Back-end asisti en la autehnticación y resgisro. Realice los estilos y la vista. También cree una parte importante del perfil del usuario. Trabaje en la vista de los detalles del producto y las reviewer de producto.",
+    "description": "Collaborate as part of a final project, in the Front-end project login and in the Back-end assist in the authentication and registration. Create the styles and the view. Also, create an important part of the user profile. Work on the product details view and product reviewer.",
     "tags": {
       "1": "JavaScript",
       "2": "Node.js",
@@ -40,7 +40,7 @@
   },
   "proyecto2": {
   "title": "whats-app-c",
-    "description":"Implemente un clon de la app whatzapp, con su authenticacion y un chat global.",
+    "description":"Implemente un clon de la app WhatsApp, con su authenticacion y un chat global.",
     "tags": {
       "1": "Javascript",
       "2": "Node.js",
@@ -54,7 +54,7 @@
   },
   "proyecto3": {
     "title": "Banca-sp",
-    "description":" Mini banco que implementa las funciona de resgisro de productos para los clientes. Implemente los stylos usando Bootstrap, tambien ejecuta transaciones con los cobros desde la DB. ",
+    "description":" Mini banco que implementa las funciona de resgistro de productos para los clientes. Implemente los stylos usando Bootstrap, tambien ejecuta transaciones con los cobros desde la DB. ",
     "tags": {
       "1": "TypeScript",
       "2": "Node.js",
@@ -70,18 +70,18 @@
 
 },
 "eng":{"page":{
-  "work":"Desarrollador Fullstack -2",
-   "personalMensage":"Busco la creacion de productos digitales para web. -2",
-   "pointer1":"SOBRE MI -2",
-   "pointer2":"EXPERIENCIA -2",
-   "pointer3":"PROYECTOS -2",
-   "AboutMeText":"Profesor de tecnología, Indi Dev game y Full Stack Web Developer, con conocimiento <br>  en <b>JavaScript</b>, <b>HTML</b>,  <b>CSS</b>,   <b>Git</b>,  <b>GitHub</b >, <b>React</b>, <b>React-hooks</b>, <b>NodeJS</b> <br> , <b>JS</b> , <b>GraphQL</b> , <b>SCRUM</b> , <b>Firebase</b> , <b>C#</b> , <b> Unity</b> , <b>Mysqul</b><br>  <br>              Profesional con gran apertura a nuevos aprendizajes, proactivo, motivado, innovador, orientado<br>      a resultados, motivación por el logro y trabajo en equipo con capacidad para integrar grupos<br>              profesionales multidisciplinarios en busca de una meta común.<br> <br>            Con destacadas habilidades de comunicación efectiva, de rápida adaptación a diferentes tareas<br>       laborales y una clara disposición al cumplimiento de tareas. -2",
-   "goToDetails":"Todos los proyectos -2"
+  "work":"Fullstack developer",
+   "personalMensage":"I create user-friendly web experiences, emphasizing <br> the customer's visibility and access.",
+   "pointer1":"ABOUT ME",
+   "pointer2":"EXPERIENCE",
+   "pointer3":"PROJECTS",
+   "AboutMeText":"In 2015, I started creating custom themes with HTML, these were my first steps as a web developer. Then I took a leap to other environments and returned to web development, currently, I have participated in some start-ups and I have done some courses as fullstack-web. <br> <br> I'm looking to keep working and improving my experience in other development teams.  In my free time I participate in game jams and pc game development. <br> <br> I consider myself an open and empathetic person, I try to create a good atmosphere and I don't like to argue. <br> <br> When I'm not at the pc, I dedicate myself to exercise, I love classic movies and listening to music.",
+   "goToDetails":"All projects"
 
 }, 
 "exps":{"proyecto1": {
 "title": " Front-end - Docia -2",
-"description": "Desarrolle y  stylos pantalla para microservicios para Docia, Coopere en las implementaciones de auth Usuario y en el los stylos del sign up. Colabore en el despliegue de metadata dinamica. -2",
+"description": "Develop styles for microservices Docia, cooperate on auth User implementations and sign-up styles. Collaborate in the deployment of dynamic metadata.",
 "tags": {"a": "sass",
      "b": "react",
      "c": "javascript",
@@ -110,7 +110,7 @@
 },
 "proyecto2": {
 "title": "whats-app-c -2",
-"description":"Implemente un clon de la app whatzapp, con su authenticacion y un chat global. -2",
+"description":"Implement a clone of the WhatsApp app, with its authentication and a global chat.",
 "tags": {
 "1": "Javascript",
 "2": "Node.js",
@@ -124,7 +124,7 @@
 },
 "proyecto3": {
 "title": "Banca-sp -2",
-"description":" Mini banco que implementa las funciona de resgisro de productos para los clientes. Implemente los stylos usando Bootstrap, tambien ejecuta transaciones con los cobros desde la DB. ",
+"description":" Mini-bank that implements the product resgistro functions for the customers. Implement the styles using Bootstrap, also execute transactions with the collections from the DB. ",
 "tags": {
 "1": "TypeScript",
 "2": "Node.js",
