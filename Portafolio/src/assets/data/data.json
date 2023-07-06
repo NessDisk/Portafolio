@@ -1,7 +1,7 @@
 {
   "es":{"page":{
           "work":"Desarrollador Fullstack",
-           "personalMensage":"Creo experiencias web de facil uso, enfantisando la <br> visaulizacion y acceso del cliente",
+           "personalMensage":"Creo experiencias web de facil uso, enfantisando la visaulizacion y acceso del cliente",
            "pointer1":"SOBRE MI",
            "pointer2":"EXPERIENCIA",
            "pointer3":"PROYECTOS",
@@ -71,7 +71,7 @@
 },
 "eng":{"page":{
   "work":"Fullstack developer",
-   "personalMensage":"I create user-friendly web experiences, emphasizing <br> the customer's visibility and access.",
+   "personalMensage":"I create user-friendly web experiences, emphasizing the customer's visibility and access.",
    "pointer1":"ABOUT ME",
    "pointer2":"EXPERIENCE",
    "pointer3":"PROJECTS",

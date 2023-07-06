@@ -5,7 +5,7 @@
 /*  font-family: 'Poppins_bold', sans-serif;  */
 
 /* DESKTOP VERSION */
-@media (min-width: 1015px) {
+@media (min-width: 900px) {
   .compTable{
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
 }
 /* MOVIL VERSION */
 
-@media (max-width: 1015px) {
+@media (max-width: 900px) {
 
   .compTable{
     display: flex;

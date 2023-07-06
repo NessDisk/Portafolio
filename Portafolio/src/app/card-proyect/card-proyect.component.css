@@ -1,6 +1,6 @@
 @import  './../link-comp/link-comp.component.css';
 /* DESKTOP VERSION */
-@media (min-width: 1015px) {
+@media (min-width: 900px) {
     .cardProyect{
         display: flex;
         flex-direction: row;
@@ -56,7 +56,7 @@
 }
 
 /* MOVIL VERSION */
-@media (max-width: 1015px) {
+@media (max-width: 900px) {
 
     .cardProyect{
         display: flex;
