@@ -52,21 +52,21 @@
     "urlText":"https://whats-app-clone-cyan.vercel.app/rooms/-N2Ea_h6CAnt37pz6HwT",
     "imgUrl":"assets/img/whatzapp-web-2.PNG"
   },
+  
   "proyecto3": {
-    "title": "Banca-sp",
-    "description":" Mini banco que implementa las funciona de resgistro de productos para los clientes. Implemente los stylos usando Bootstrap, tambien ejecuta transaciones con los cobros desde la DB. ",
+    "title": "Mercado-Libre-Search",
+    "description":" Buscador clon de mercado libre, permite ver 5 productos de la listado y los detalles del producto.  ",
     "tags": {
-      "1": "TypeScript",
+      "1": "JavaScript",
       "2": "Node.js",
-      "3": "Postgress",
-      "4": "Firebase",
-      "5": "html",
-      "6": "angular",
-      "7": "SpringBoot"
+      "3": "React",
+      "4": "Scss"
     },
-    "urlText":"https://github.com/NessDisk/Banca-Sp",
-    "imgUrl":"assets/img/Banca-sp.PNG"
-  }}
+    "urlText":"https://mercadolibre-rt.vercel.app/",
+    "imgUrl":"assets/img/Mercado-Libre.PNG"
+  }
+}
+
 
 },
 "eng":{"page":{
@@ -123,20 +123,19 @@
 "imgUrl":"assets/img/whatzapp-web-2.PNG"
 },
 "proyecto3": {
-"title": "Banca-sp",
-"description":" Mini-bank that implements the product resgistro functions for the customers. Implement the styles using Bootstrap, also execute transactions with the collections from the DB. ",
-"tags": {
-"1": "TypeScript",
-"2": "Node.js",
-"3": "Postgress",
-"4": "Firebase",
-"5": "html",
-"6": "angular",
-"7": "SpringBoot"
-},
-"urlText":"https://github.com/NessDisk/Banca-Sp",
-"imgUrl":"assets/img/Banca-sp.PNG"
-}}
+  "title": "Mercado-Libre-Search",
+  "description":" Mercado-libre clone search engine, allows you to view 5 products from the listing and product details.  ",
+  "tags": {
+    "1": "JavaScript",
+    "2": "Node.js",
+    "3": "React",
+    "4": "Scss"
+  },
+  "urlText":"https://mercadolibre-rt.vercel.app/",
+  "imgUrl":"assets/img/Mercado-Libre.PNG"
+}
+
+}
 
 }
 }
