@@ -349,3 +349,8 @@ b:hover{
 .lenguageStyle:hover{
   opacity: 100%;
 }
+
+.footer{
+  font-family:  'Inter', sans-serif; 
+  opacity: 50%;
+}
