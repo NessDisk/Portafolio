@@ -17,10 +17,20 @@
              "c": "javascript",
              "d": "Bootstrap" 
         },
-      "dateinfo":"2022 -PRESENT",
+      "dateinfo":"2022 - 2023",
       "urlText":"https://www.doc-ia.com/"
-          }
-              },
+          },
+          "proyecto2": {
+            "title": " Megadomkard",
+            "description": "  Fullstack developer, Gestione de contenido, creador de nuevos assets.",
+            "tags": {"a": "sass",
+                     "b": "react",
+                     "c": "javascript"
+                },
+              "dateinfo":"PRESENT",
+              "urlText":"https://domkard.com/"
+                  }
+          },
     "Proyects":{"proyecto1": {
     "title": "E-comerce",
     "description": "Colabore como parte de un proyecto final, en el Login del proyecto en Front-end y en el Back-end asisti en la autehnticación y resgistro. Realice los estilos y la vista. También cree una parte importante del perfil del usuario. Trabaje en la vista de los detalles del producto y las reviewer de producto.",
@@ -89,7 +99,17 @@
 },
 "dateinfo":"2022 -PRESENT",
 "urlText":"https://www.doc-ia.com/"
-  }
+  },
+  "proyecto2": {
+    "title": " Megadomkard",
+    "description": " Fullstack developer, Content management y creator of new assets.",
+    "tags": {"a": "sass",
+             "b": "react",
+             "c": "javascript"
+        },
+      "dateinfo":"PRESENT",
+      "urlText":"https://domkard.com/"
+          }
       },
 "Proyects":{"proyecto1": {
 "title": "E-comerce",
