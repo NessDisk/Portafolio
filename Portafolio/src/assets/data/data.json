@@ -5,35 +5,48 @@
            "pointer1":"SOBRE MI",
            "pointer2":"EXPERIENCIA",
            "pointer3":"PROYECTOS",
-           "AboutMeText":"En el 2015, comencé  creando temas personalizados con html, estos fueron  mis primeros pasos como desarrollador web. Luego di un salto un salto a otros entornos y volvi al desarrollo web, actualmente he participado en algunas start-up y superado algunos cursos como fullstack-web. <br> <br> Busco seguir trabajando mejorando mi experiencia dentro  de otros equipos. En mi tiempo libre participo en game jams  y en desarrollo de juegos para pc. <br><br> Me considero una persona abierta y empatica con los demas, intento generar un buen ambiente y no me gusta discutir.<br><br> Cuando  no estoy en el pc, me dedico al ejercitarme , me encanta el cine clasico y escuchar musica. ",
+           "AboutMeText":"En 2015, inicié mi carrera creando temas personalizados con HTML, lo que marcó mis primeros pasos como desarrollador web. Posteriormente, exploré otros entornos antes de regresar al desarrollo web. Actualmente, he colaborado en varias startups y he completado con éxito diversos cursos como desarrollador full-stack. Busco seguir creciendo profesionalmente y perfeccionando mis habilidades trabajando con equipos dinámicos y multidisciplinarios. En mi tiempo libre, participo en game jams y desarrollo juegos para PC, lo que me ha permitido mejorar mi capacidad de resolución de problemas y creatividad. Me considero una persona abierta y empática, enfocada en generar un ambiente de trabajo positivo y en fomentar la colaboración. Cuando no estoy en el PC, disfruto ejercitándome, viendo cine clásico y escuchando música. ",
            "goToDetails":"Todos los proyectos"
 
-  }, 
+  },
   "exps":{"proyecto1": {
     "title": " Front-end - Docia",
-    "description": "Desarrolle estilos para los microservicios de Docia, Coopere en las implementaciones de auth Usuario y en el los stylos del sign up. Colabore en el despliegue de metadata dinamica.",
+    "description": "Front-end",
     "tags": {"a": "sass",
              "b": "react",
              "c": "javascript",
-             "d": "Bootstrap" 
+             "d": "Bootstrap"
         },
       "dateinfo":"2022 - 2023",
       "urlText":"https://www.doc-ia.com/"
           },
           "proyecto2": {
             "title": " Megadomkard",
-            "description": "  Fullstack developer, Gestione de contenido, creador de nuevos assets.",
+            "description": "Fullstack developer.",
             "tags": {"a": "sass",
                      "b": "react",
-                     "c": "javascript"
+                     "c": "javascript",
+                     "d": "nestJS"
                 },
-              "dateinfo":"PRESENT",
+              "dateinfo":"2023 - 2024",
               "urlText":"https://domkard.com/"
-                  }
+                  },
+                  "proyecto3": {
+                    "title": " Belliniun - epic  Next-destiny",
+                    "description": "Back-end developer.",
+                    "tags": {"a": "Phyton",
+                             "b": "AWS",
+                             "c": "fastApi",
+                             "d": "MySql",
+                             "e": "Docker"
+                        },
+                      "dateinfo":"2024 - 2025",
+                      "urlText":"https://billeniumenergy.com/"
+                          }
           },
     "Proyects":{"proyecto1": {
     "title": "E-comerce",
-    "description": "Colabore como parte de un proyecto final, en el Login del proyecto en Front-end y en el Back-end asisti en la autehnticación y resgistro. Realice los estilos y la vista. También cree una parte importante del perfil del usuario. Trabaje en la vista de los detalles del producto y las reviewer de producto.",
+    "description": "Formé parte del equipo de desarrollo Front-End en el proyecto, donde fui responsable de organizar la interfaz de usuario (UI) y diseñar las vistas detalladas de los productos, asegurando una experiencia visual y funcional coherente.",
     "tags": {
       "1": "JavaScript",
       "2": "Node.js",
@@ -62,7 +75,7 @@
     "urlText":"https://whats-app-clone-cyan.vercel.app/rooms/-N2Ea_h6CAnt37pz6HwT",
     "imgUrl":"assets/img/whatzapp-web-2.PNG"
   },
-  
+
   "proyecto3": {
     "title": "Mercado-Libre-Search",
     "description":" Buscador clon de mercado libre, permite ver 5 productos de la listado y los detalles del producto.  ",
@@ -72,7 +85,7 @@
       "3": "React",
       "4": "Scss"
     },
-    "urlText":"https://mercadolibre-4ldbo8qcu-nessdisk.vercel.app/",
+    "urlText":"https://dakdadaladw-test.vercel.app/",
     "imgUrl":"assets/img/Mercado-Libre.PNG"
   }
 }
@@ -85,31 +98,43 @@
    "pointer1":"ABOUT ME",
    "pointer2":"EXPERIENCE",
    "pointer3":"PROJECTS",
-   "AboutMeText":"In 2015, I started creating custom themes with HTML, these were my first steps as a web developer. Then I took a leap to other environments and returned to web development, currently, I have participated in some start-ups and I have done some courses as fullstack-web. <br> <br> I'm looking to keep working and improving my experience in other development teams.  In my free time I participate in game jams and pc game development. <br> <br> I consider myself an open and empathetic person, I try to create a good atmosphere and I don't like to argue. <br> <br> When I'm not at the pc, I dedicate myself to exercise, I love classic movies and listening to music.",
+   "AboutMeText":"In 2015, I began my career by creating custom themes with HTML, which marked my first steps as a web developer. I later explored other environments before returning to web development. Currently, I have collaborated with several startups and successfully completed various courses as a full-stack developer. I am looking to continue growing professionally and refining my skills by working with dynamic and multidisciplinary teams. In my free time, I participate in game jams and develop PC games, which has helped me enhance my problem-solving skills and creativity. I consider myself an open and empathetic person, focused on fostering a positive work environment and encouraging collaboration. When I'm not at my PC, I enjoy working out, watching classic films, and listening to music.",
    "goToDetails":"All projects"
 
-}, 
+},
 "exps":{"proyecto1": {
 "title": " Front-end - Docia",
-"description": "Develop styles for microservices Docia, cooperate on auth User implementations and sign-up styles. Collaborate in the deployment of dynamic metadata.",
+"description": "Front-end",
 "tags": {"a": "sass",
      "b": "react",
      "c": "javascript",
-     "d": "Bootstrap" 
+     "d": "Bootstrap"
 },
 "dateinfo":"2022 -PRESENT",
 "urlText":"https://www.doc-ia.com/"
   },
   "proyecto2": {
     "title": " Megadomkard",
-    "description": " Fullstack developer, Content management y creator of new assets.",
+    "description": " Fullstack developer",
     "tags": {"a": "sass",
              "b": "react",
              "c": "javascript"
         },
       "dateinfo":"PRESENT",
       "urlText":"https://domkard.com/"
-          }
+          },
+          "proyecto3": {
+            "title": " Belliniun Next-destiny",
+            "description": "Back-end developer.",
+            "tags": {"a": "Phyton",
+                     "b": "fastApi",
+                     "c": "AWS",
+                     "d": "Docker",
+                     "e": "MySql"
+                },
+              "dateinfo":"2024 - 2025",
+              "urlText":"https://domkard.com/"
+                  }
       },
 "Proyects":{"proyecto1": {
 "title": "E-comerce",
@@ -151,7 +176,7 @@
     "3": "React",
     "4": "Scss"
   },
-  "urlText":"https://mercadolibre-4ldbo8qcu-nessdisk.vercel.app/",
+  "urlText":"https://dakdadaladw-test.vercel.app/",
   "imgUrl":"assets/img/Mercado-Libre.PNG"
 }
 

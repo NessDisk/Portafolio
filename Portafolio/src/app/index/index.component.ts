@@ -9,14 +9,14 @@ import * as data from '../../assets/data/data.json';
   selector: 'app-index',
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.css'],
-  
+
 })
 export class IndexComponent {
 
   titulo : string="Titulo de prueba";
   resumen : string="Esto es un resumendel proyecto";
   tagtest : string="css";
-  
+
   mostrarAnimacion1 = false;
   mostrarAnimacion2 = false;
   mostrarAnimacion3 = false;
@@ -53,10 +53,10 @@ this.boolEnableIndexToDetails = true;
   {
     this.boolEnableIndexToDetails = false;
   }
-  
-  // 
 
-  
+  //
+
+
  //select lenguis
   //exp
 
@@ -89,18 +89,18 @@ this.boolEnableIndexToDetails = true;
  }
 
 
-//  
+//
 
   enableBoolshadowEffectcard()
   {
     this.BoolshadowEffectcard = true;
-   
+
   }
 
   DisenableBoolshadowEffectcard()
   {
     this.BoolshadowEffectcard = false;
-    
+
   }
 
   moverElemento(event: MouseEvent) {
@@ -114,23 +114,23 @@ this.boolEnableIndexToDetails = true;
 
 
     if(value == 1){
-      
+
       window.scrollTo({
         top: 0,
         behavior: 'smooth'
       });
     }
    else if(value == 2){
-      
+
       window.scrollTo({
-        top: 500,
+        top: 450,
         behavior: 'smooth'
       });
     }
 
-   else{      
+   else{
       window.scrollTo({
-        top: 800,
+        top: 1000,
         behavior: 'smooth'
       });
     }
@@ -139,7 +139,7 @@ this.boolEnableIndexToDetails = true;
   // Animation tittle
 
   activarAnimacionMouseEnter(value: Number) {
- 
+
     this.isOVerSelecte = value;
 
     if(value == 1)
@@ -153,7 +153,7 @@ this.boolEnableIndexToDetails = true;
 
 
   activarAnimacion(value: Number) {
- 
+
     if(value == 1)
     this.mostrarAnimacion1 = true;
     else if(value == 2)
@@ -165,7 +165,7 @@ this.boolEnableIndexToDetails = true;
 
 
   desactivarAnimacion() {
-    
+
     this.isOVerSelecte =0;
 
     if(  this.isSelectec != 1)
@@ -203,7 +203,7 @@ this.boolEnableIndexToDetails = true;
     else
     this.lenguageEng();
   }
-  
+
   // selector index
   @HostListener('window:scroll', ['$event'])
   onWindowScroll() {
@@ -214,13 +214,13 @@ this.boolEnableIndexToDetails = true;
     this.isSelectec = 1;
     else if(scrollTop >= 500 &&  scrollTop <= 799)
     this.isSelectec = 2;
-    else 
+    else
     this.isSelectec = 3;
 
     this.activarAnimacion(this.isSelectec);
     this. desactivarAnimacionAll();
 
- 
+
   }
 // Screan wight
   @HostListener('window:resize', ['$event'])
@@ -253,5 +253,5 @@ this.boolEnableIndexToDetails = true;
   }
 
 
-  
+
 }
