@@ -110,7 +110,7 @@
      "c": "javascript",
      "d": "Bootstrap"
 },
-"dateinfo":"2022 -PRESENT",
+"dateinfo":"2022 - 2023",
 "urlText":"https://www.doc-ia.com/"
   },
   "proyecto2": {
@@ -118,19 +118,20 @@
     "description": " Fullstack developer",
     "tags": {"a": "sass",
              "b": "react",
-             "c": "javascript"
+             "c": "javascript",
+             "d": "nestJS"
         },
-      "dateinfo":"PRESENT",
+      "dateinfo":"2023 - 2024",
       "urlText":"https://domkard.com/"
           },
           "proyecto3": {
             "title": " Belliniun Next-destiny",
             "description": "Back-end developer.",
-            "tags": {"a": "Phyton",
-                     "b": "fastApi",
-                     "c": "AWS",
-                     "d": "Docker",
-                     "e": "MySql"
+            "tags": { "a": "Phyton",
+                      "b": "AWS",
+                      "c": "fastApi",
+                      "d": "MySql",
+                      "e": "Docker"
                 },
               "dateinfo":"2024 - 2025",
               "urlText":"https://domkard.com/"
